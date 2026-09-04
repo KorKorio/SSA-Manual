@@ -1,0 +1,191 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
+  "Hub": {
+    "starting": true,
+    "connects_to": [
+      "SI",
+      "PP",
+      "SSD",
+      "SS",
+      "OSI",
+      "DWC",
+      "LL",
+      "CEC",
+      "ST",
+      "TT",
+      "FF",
+      "TWH",
+      "GF",
+      "BF",
+      "CrCa",
+      "CaCr",
+      "CrCi",
+      "MM",
+      "LLR",
+      "QSV",
+      "AA",
+      "LOK",
+      "EOI",
+      "PS",
+      "DLC",
+      "DP"
+    ],
+    "requires": ""
+  },
+  "SI": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Shattered Island|"
+  },
+  "PP": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Perilous Pastures|"
+  },
+  "SSD": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Sky Schooner Docks|"
+  },
+  "SS": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Stormy Stronghold|"
+  },
+  "OSI": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Oilspill Island|"
+  },
+  "DWC": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Dark Water Cove|"
+  },
+  "LL": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Leviathan Lagoon|"
+  },
+  "CEC": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Crystal Eye Castle|"
+  },
+  "ST": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Stonetown|"
+  },
+  "TT": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Treetop Terrace|"
+  },
+  "FF": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Falling Forest|"
+  },
+  "TWH": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Troll Warehouse|"
+  },
+  "GF": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Goo Factory|"
+  },
+  "BF": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Battlefield|"
+  },
+  "CrCa": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Crawling Catacombs|"
+  },
+  "CaCr": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Cadaverous Crypt|"
+  },
+  "CrCi": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Creepy Citadel|"
+  },
+  "MM": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Molekin Mine|"
+  },
+  "LLR": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Lava Lakes Railway|"
+  },
+  "QSV": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Quicksilver Vault|"
+  },
+  "AA": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Arkeyan Armory|"
+  },
+  "LOK": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Lair Of Kaos|"
+  },
+  "EOI": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Empire Of Ice|"
+  },
+  "PS": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Pirate Seas|"
+  },
+  "DLC": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Darklight Crypt|"
+  },
+  "DP": {
+    "connects_to": [
+      "Hub"
+    ],
+    "requires": "|Dragons Peak|"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "SpyroAdventureWii",
+  "creator": "Dukedragon28",
+  "filler_item_name": "100 Gold",
+  "death_link": true,
+  "starting_items": [
+ {
+      "item_categories": ["Levels"],
+      "random": 1
+    },
+    {
+      "item_categories": ["Skylanders"],
+      "random": 1
+    }
+
+	]
+}

@@ -1,0 +1,139 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
+    "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
+    "core": {
+        "goal":{
+            "_comment": [
+                "Using 'goal' as the name of an option let you override some of the generated goal parameters"
+            ],
+            "display_name": "The End Objective",
+            "description": "How to End your Randomized playthrough.",
+            "aliases": {"easiest": 0},
+            "hidden": false
+        },
+        "death_link": {
+            "default": false
+        },
+        "filler_traps": {
+            "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
+            "values": {
+                "recommended": 20
+            }
+        }
+    },
+    "user": {
+        "_commented_out_option":{
+            "type": "Toggle",
+            "default": true
+        },
+        "Shuffle_Adventure_Packs":{
+            "display_name": "Include Adventure Packs",
+            "description": "Shuffles Adventure Pack Locations and Items",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+		"spoiler"
+            ],
+            "default": true,
+	    "group": "Extra Shuffles"
+        },
+       "Shuffle_Sapphires":{
+            "display_name": "Shuffle Winged Sapphires",
+            "description": "Shuffles Winged Sapphires in hub as locations and items (you can ignore the items if yhou wish)",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+		"spoiler"
+            ],
+            "default": false,
+	    "group": "Extra Shuffles"
+       },
+	
+
+       "Shuffle_Accolades":{
+            "display_name": "Shuffle Select Accolades",
+            "description": "Shuffles some Accolades as Locations",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+		"spoiler"
+            ],
+            "default": false,
+	    "group": "Extra Shuffles"
+        },
+
+	"Kaos_Fights_Require_3_Skylanders":{
+            "display_name": "Kaos Fights Require 3 Skylanders",
+            "description": "Ensures you always have at least 3 Skylanders before fighting Kaos in chapters 7, 11, 17, 19, and 21. Disable if using pre-built Skylanders",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+		"spoiler"
+            ],
+            "default": true,
+	    "group": "Logic Options and Tricks"
+	},
+	"Skip_to_2nd_DWC_Ship":{
+            "display_name": "Skip to 2nd Ship in DWC",
+            "description": "Use the Bouncepad on the beach by East Gate Treasure Chest to reach the 2nd ship early. Done with Warnado or Bash",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+		"spoiler"
+            ],
+            "default": false,
+	    "group": "Logic Options and Tricks"
+	},
+	"Core_Warnado_Jumps":{
+            "display_name": "Core Warnado Jumps",
+            "description": "Base-Speed Warnado Jumps commonlly used in Speedruns",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+		"spoiler"
+            ],
+            "default": false,
+	    "group": "Logic Options and Tricks"
+	},
+	"Obscure_Warnado_Jumps":{
+            "display_name": "Obscure Warnado Jumps",
+            "description": "Lesser Used or Difficult Base-Speed Warnado Jumps",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+		"spoiler"
+            ],
+            "default": false,
+	    "group": "Logic Options and Tricks"
+	},
+        
+	"Ghost_Roaster_Launches":{
+            "display_name": "Ghost Roaster Launches",
+            "description": "Use Ghost Roaster to climb over walls. Used in Chapters 3 and 14",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+		"spoiler"
+            ],
+            "default": false,
+	    "group": "Logic Options and Tricks"
+	}
+    }
+
+}

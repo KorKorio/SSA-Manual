@@ -1,0 +1,28 @@
+{
+
+"AdventurePack": {
+	"hidden": true,
+	"yaml_option": ["Shuffle_Adventure_Packs"]
+
+	},
+"Speed9": {
+	"hidden": true
+
+	},
+"Speed19": {
+	"hidden": true
+
+	},
+"Non-Starter": {
+	"hidden": true
+
+	},
+"Winged Sapphire": {
+	"yaml_option": ["Shuffle_Sapphires"]
+
+	},
+"Accolades": {
+	"yaml_option": ["Shuffle_Accolades"]
+	}
+
+}

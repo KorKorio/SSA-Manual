@@ -1,0 +1,1308 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+  "data": [
+    {
+      "count": 1,
+      "name": "Shattered Island",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Perilous Pastures",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Sky Schooner Docks",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Stormy Stronghold",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Oilspill Island",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Dark Water Cove",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Leviathan Lagoon",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Crystal Eye Castle",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Stonetown",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Treetop Terrace",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Falling Forest",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Troll Warehouse",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Goo Factory",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Battlefield",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Crawling Catacombs",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Cadaverous Crypt",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Creepy Citadel",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Molekin Mine",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Lava Lakes Railway",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Quicksilver Vault",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Arkeyan Armory",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Lair Of Kaos",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Empire Of Ice",
+      "category": [
+        "Levels",
+        "AdventurePack"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Pirate Seas",
+      "category": [
+        "Levels",
+        "AdventurePack"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Darklight Crypt",
+      "category": [
+        "Levels",
+        "AdventurePack"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Dragons Peak",
+      "category": [
+        "Levels",
+        "AdventurePack"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Spyro",
+      "category": [
+        "Magic",
+        "Flight",
+        "Skylanders",
+        "Speed9",
+        "Speed19"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Wrecking Ball",
+      "category": [
+        "Magic",
+        "Skylanders",
+        "Speed9",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Voodood",
+      "category": [
+        "Magic",
+        "Skylanders",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Double Trouble",
+      "category": [
+        "Magic",
+        "Skylanders",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Gill Grunt",
+      "category": [
+        "Water",
+        "Skylanders",
+        "Speed9",
+        "Speed19"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Zap",
+      "category": [
+        "Water",
+        "Skylanders",
+        "Speed9",
+        "Speed19",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Slam Bam",
+      "category": [
+        "Water",
+        "Skylanders",
+        "Speed9",
+        "Speed19",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Wham-Shell",
+      "category": [
+        "Water",
+        "Skylanders",
+        "Speed9",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Trigger Happy",
+      "category": [
+        "Tech",
+        "Skylanders",
+        "Speed9"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Drobot",
+      "category": [
+        "Tech",
+        "Flight",
+        "Skylanders",
+        "Speed9",
+        "Speed19",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Boomer",
+      "category": [
+        "Tech",
+        "Skylanders",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Drill Sergeant",
+      "category": [
+        "Tech",
+        "Skylanders",
+        "Speed9",
+        "Speed19",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Stealth Elf",
+      "category": [
+        "Life",
+        "Skylanders",
+        "Speed9",
+        "Speed19",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Stump Smash",
+      "category": [
+        "Life",
+        "Skylanders",
+        "Speed9",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Camo",
+      "category": [
+        "Life",
+        "Skylanders",
+        "Speed9",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Zook",
+      "category": [
+        "Life",
+        "Skylanders",
+        "Speed9",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Bash",
+      "category": [
+        "Earth",
+        "Skylanders",
+        "Speed9",
+        "Speed19",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Terrafin",
+      "category": [
+        "Earth",
+        "Skylanders",
+        "Speed9",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Dino-Rang",
+      "category": [
+        "Earth",
+        "Skylanders",
+        "Speed9",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Prism Break",
+      "category": [
+        "Earth",
+        "Skylanders",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Sunburn",
+      "category": [
+        "Fire",
+        "Skylanders",
+        "Speed9",
+        "Speed19",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Flameslinger",
+      "category": [
+        "Fire",
+        "Skylanders",
+        "Speed9",
+        "Speed19",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Ignitor",
+      "category": [
+        "Fire",
+        "Skylanders",
+        "Speed9",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Eruptor",
+      "category": [
+        "Fire",
+        "Skylanders",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Warnado",
+      "category": [
+        "Air",
+        "Flight",
+        "Skylanders",
+        "Speed9",
+        "Speed19",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Whirlwind",
+      "category": [
+        "Air",
+        "Flight",
+        "Skylanders",
+        "Speed9",
+        "Speed19",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Sonic Boom",
+      "category": [
+        "Air",
+        "Flight",
+        "Skylanders",
+        "Speed9",
+        "Speed19",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Lightning Rod",
+      "category": [
+        "Air",
+        "Flight",
+        "Skylanders",
+        "Speed9",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Hex",
+      "category": [
+        "Undead",
+        "Skylanders",
+        "Speed9",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Chop Chop",
+      "category": [
+        "Undead",
+        "Skylanders",
+        "Speed9",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Cynder",
+      "category": [
+        "Undead",
+        "Flight",
+        "Skylanders",
+        "Speed9",
+        "Speed19",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Soulgem Ghost Roaster",
+      "category": [
+        "Undead",
+        "Skylanders",
+        "Speed9",
+        "Speed19",
+        "Non-Starter"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Salary Swine (50)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Enigma Pig (100)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Wild Runners (150)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Ancient Carillon (200)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Catechumen (250)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Parrot Totem (300)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Opulent Pullet (350)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Teddy Cyclops (400)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Mono Lisa (450)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Sterling Tapir (500)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Topiary's Nucleus (550)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Ghost View Glasses (600)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Troll Stein (650)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Royal Lynx (700)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Aphid Lifter (750)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Golden Randomizer (800)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Doom's Rook (850)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Golden Links (900)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Fiord's Jetty (950)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Rollerskates (1000)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Arkeyan Weapon Controller (1050)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Superior Regalia (1100)",
+      "category": [
+        "Legendary Treasure"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Snow Globe (500)",
+      "category": [
+        "Legendary Treasure",
+        "AdventurePack"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Bottle Boat (500)",
+      "category": [
+        "Legendary Treasure",
+        "AdventurePack"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Flamingo (500)",
+      "category": [
+        "Legendary Treasure",
+        "AdventurePack"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Archaic Codex (500)",
+      "category": [
+        "Legendary Treasure",
+        "AdventurePack"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Evacuation",
+      "category": [
+        "Complete Non-Use"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Cali",
+      "category": [
+        "Complete Non-Use"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Golden Propeller",
+      "category": [
+        "Complete Non-Use"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Eternal Air Source",
+      "category": [
+        "Eternal Source"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Oil",
+      "category": [
+        "Complete Non-Use",
+        "Winged Sapphire"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Twin Spouts",
+      "category": [
+        "Core"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Eternal Water Source",
+      "category": [
+        "Eternal Source"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Crystal Eye",
+      "category": [
+        "Core"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Eternal Earth Source",
+      "category": [
+        "Eternal Source"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Seeds of Life",
+      "category": [
+        "Complete Non-Use"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Eternal Life Source",
+      "category": [
+        "Eternal Source"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Golden Gear",
+      "category": [
+        "Core"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Green Goo",
+      "category": [
+        "Core"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Eternal Tech Source",
+      "category": [
+        "Eternal Source"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Skull Mask",
+      "category": [
+        "Core"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Skull Key",
+      "category": [
+        "Complete Non-Use"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Eternal Undead Source",
+      "category": [
+        "Eternal Source"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Crucible of the Ages",
+      "category": [
+        "Core"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Eternal Fire Source",
+      "category": [
+        "Eternal Source"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Quicksilver",
+      "category": [
+        "Core"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Eternal Magic Source",
+      "category": [
+        "Eternal Source"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Spring",
+      "category": [
+        "Complete Non-Use",
+        "AdventurePack"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Jessie",
+      "category": [
+        "Complete Non-Use",
+        "AdventurePack"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Pies",
+      "category": [
+        "Complete Non-Use",
+        "AdventurePack"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Dragon's Peace",
+      "category": [
+        "Complete Non-Use",
+        "AdventurePack"
+      ],
+      "filler": true
+    },
+    {
+      "count": "3",
+      "name": "Key (SI)",
+      "category": [
+        "Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": "3",
+      "name": "Key (PP)",
+      "category": [
+        "Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": "2",
+      "name": "Key (SSD)",
+      "category": [
+        "Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Key (SS)",
+      "category": [
+        "Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": "5",
+      "name": "Key (OSI)",
+      "category": [
+        "Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": "2",
+      "name": "Key (DWC)",
+      "category": [
+        "Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Key (LL)",
+      "category": [
+        "Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Key (CEC)",
+      "category": [
+        "Keys"
+      ],
+      "trap": true
+    },
+    {
+      "count": "4",
+      "name": "Key (ST)",
+      "category": [
+        "Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Key (TT)",
+      "category": [
+        "Keys"
+      ],
+      "trap": true
+    },
+    {
+      "count": 1,
+      "name": "Key (FF)",
+      "category": [
+        "Keys"
+      ],
+      "trap": true
+    },
+    {
+      "count": "8",
+      "name": "Key (TWH)",
+      "category": [
+        "Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Key (GF)",
+      "category": [
+        "Keys"
+      ],
+      "trap": true
+    },
+    {
+      "count": "3",
+      "name": "Key (BF)",
+      "category": [
+        "Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": "6",
+      "name": "Key (CrCa)",
+      "category": [
+        "Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Key (CaCr)",
+      "category": [
+        "Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Key (CrCi)",
+      "category": [
+        "Keys"
+      ],
+      "trap": true
+    },
+    {
+      "count": 1,
+      "name": "Key (MM)",
+      "category": [
+        "Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Key (LLR)",
+      "category": [
+        "Keys"
+      ],
+      "trap": true
+    },
+    {
+      "count": "3",
+      "name": "Key (QSV)",
+      "category": [
+        "Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Key (AA)",
+      "category": [
+        "Keys"
+      ],
+      "trap": true
+    },
+    {
+      "count": "4",
+      "name": "Key (LOK)",
+      "category": [
+        "Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Key (EOI)",
+      "category": [
+        "Keys",
+        "AdventurePack"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Key (PS)",
+      "category": [
+        "Keys",
+        "AdventurePack"
+      ],
+      "progression": true
+    },
+    {
+      "count": "5",
+      "name": "Key (DLC)",
+      "category": [
+        "Keys",
+        "AdventurePack"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Key (DP)",
+      "category": [
+        "Keys",
+        "AdventurePack"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Anvil Rain",
+      "category": [
+        "MagicItems"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Ghost Swords",
+      "category": [
+        "MagicItems"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Healing Elixir",
+      "category": [
+        "MagicItems"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Hidden Treasure",
+      "category": [
+        "MagicItems"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Sky-Iron Shield",
+      "category": [
+        "MagicItems"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Sparx the Dragonfly",
+      "category": [
+        "MagicItems"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Time Twister Hourglass",
+      "category": [
+        "MagicItems"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Winged Boots",
+      "category": [
+        "MagicItems"
+      ],
+      "useful": true
+    },
+    {
+      "count": "20",
+      "name": "200 Gold",
+      "category": [],
+      "filler": true
+    },
+    {
+      "count": "20",
+      "name": "400 Gold",
+      "category": [],
+      "filler": true
+    },
+    {
+      "count": "20",
+      "name": "800 Gold",
+      "category": [],
+      "filler": true
+    },
+    {
+      "count": "20",
+      "name": "1600 Gold",
+      "category": [],
+      "filler": true
+    },
+    {
+      "count": "10",
+      "name": "Winged Sapphire",
+      "category": [
+        "Winged Sapphire"
+      ],
+      "filler": true
+    }
+  ]
+}
