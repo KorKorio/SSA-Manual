@@ -2,1983 +2,2067 @@
   "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
   "data": [
     {
-      "name": "LOK: Defeat Kaos",
-      "victory": true,
-      "region": "LOK",
+      "name": "01_SI_Key Market Entry",
+      "region": "01_SI",
       "category": [
-        "22: Lair of Kaos"
-      ],
-      "requires": "|@Eternal Source:8| AND |@Core:5| AND (|Key (LOK):4| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)})) AND (|@Skylanders:3| OR {YamlDisabled(Kaos_Fights_Require_3_Skylanders)})"
-    },
-    {
-      "category": [
-        "01: Shattered Island"
-      ],
-      "requires": "|Key (SI):3| OR (|Key (SI):1| AND |Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})",
-      "region": "SI",
-      "name": "SI: Complete Level"
-    },
-    {
-      "name": "SI: Key Market Entry",
-      "region": "SI",
-      "category": [
-        "01: Shattered Island"
+        "01_Shattered Island"
       ],
       "requires": ""
     },
-    {
-      "name": "SI: Key Market Exit",
-      "region": "SI",
+{
+      "name": "01_SI_Key Market Exit",
+      "region": "Ch01 Key1",
       "category": [
-        "01: Shattered Island"
-      ],
-      "requires": "|Key (SI):1| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})"
-    },
-    {
-      "name": "SI: Key Palace",
-      "region": "SI",
-      "category": [
-        "01: Shattered Island"
-      ],
-      "requires": "|Key (SI):2| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})"
-    },
-    {
-      "name": "SI: SoulGem ChopChop",
-      "region": "SI",
-      "category": [
-        "01: Shattered Island"
-      ],
-      "requires": "(|Key (SI):2| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})) AND |@Magic|"
-    },
-    {
-      "name": "SI: LegendaryTreasure",
-      "region": "SI",
-      "category": [
-        "01: Shattered Island"
-      ],
-      "requires": "|Key (SI):1| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})"
-    },
-    {
-      "name": "SI: Hat MagicGate",
-      "region": "SI",
-      "category": [
-        "01: Shattered Island"
-      ],
-      "requires": "(|Key (SI):2| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})) AND |@Magic|"
-    },
-    {
-      "name": "SI: Hat WaterGate",
-      "region": "SI",
-      "category": [
-        "01: Shattered Island"
-      ],
-      "requires": "(|Key (SI):2| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})) AND |@Water|"
-    },
-    {
-      "name": "SI: Hat TechGate",
-      "region": "SI",
-      "category": [
-        "01: Shattered Island"
-      ],
-      "requires": "(|Key (SI):2| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})) AND |@Tech|"
-    },
-    {
-      "name": "SI: TreasureChest Market Curve (Path)",
-      "region": "SI",
-      "category": [
-        "01: Shattered Island"
-      ],
-      "requires": "|Key (SI):1| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})"
-    },
-    {
-      "name": "SI: TreasureChest Chompy Pit (Path)",
-      "region": "SI",
-      "category": [
-        "01: Shattered Island"
-      ],
-      "requires": "(|Key (SI):2| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})) AND (|@Water| OR |@Flight|)"
-    },
-    {
-      "name": "SI: TreasureChest Ancient Landmark (Path)",
-      "region": "SI",
-      "category": [
-        "01: Shattered Island"
-      ],
-      "requires": "|Key (SI):2| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})"
-    },
-    {
-      "name": "SI: StoryScroll",
-      "region": "SI",
-      "category": [
-        "01: Shattered Island"
-      ],
-      "requires": "|Key (SI):2| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})"
-    },
-    {
-      "name": "PP: Complete Level",
-      "region": "PP",
-      "category": [
-        "02: Perilous Pastures"
-      ],
-      "requires": "|Key (PP):3| OR (|Key (PP):2| AND {YamlEnabled(Core_Warnado_Jumps)} AND |Soulgem Warnado|)"
-    },
-    {
-      "name": "PP: Key Start",
-      "region": "PP",
-      "category": [
-        "02: Perilous Pastures"
+        "01_Shattered Island"
       ],
       "requires": ""
     },
-    {
-      "name": "PP: Key By Drow",
-      "region": "PP",
+{
+      "name": "01_SI_LegendaryTreasure",
+      "region": "Ch01 Key1",
       "category": [
-        "02: Perilous Pastures"
-      ],
-      "requires": "|Key (PP):1|"
-    },
-    {
-      "name": "PP: Key Stone Ledge",
-      "region": "PP",
-      "category": [
-        "02: Perilous Pastures"
-      ],
-      "requires": "|Key (PP):2|"
-    },
-    {
-      "name": "PP: SoulGem StumpSmash",
-      "region": "PP",
-      "category": [
-        "02: Perilous Pastures"
-      ],
-      "requires": "|@Tech|"
-    },
-    {
-      "name": "PP: LegendaryTreasure",
-      "region": "PP",
-      "category": [
-        "02: Perilous Pastures"
-      ],
-      "requires": "(|Key (PP):3| OR (|Key (PP):2| AND {YamlEnabled(Core_Warnado_Jumps)} AND |Soulgem Warnado|)) AND |@Life|"
-    },
-    {
-      "name": "PP: Hat TechGate",
-      "region": "PP",
-      "category": [
-        "02: Perilous Pastures"
-      ],
-      "requires": "|@Tech|"
-    },
-    {
-      "name": "PP: Hat WaterGate",
-      "region": "PP",
-      "category": [
-        "02: Perilous Pastures"
-      ],
-      "requires": "(|Key (PP):3| OR (|Key (PP):2| AND {YamlEnabled(Core_Warnado_Jumps)} AND |Soulgem Warnado|)) AND |@Water|"
-    },
-    {
-      "name": "PP: TreasureChest Bleating Heigts (Tech)",
-      "region": "PP",
-      "category": [
-        "02: Perilous Pastures"
-      ],
-      "requires": "|@Tech|"
-    },
-    {
-      "name": "PP: TreasureChest Fairy Ring (Path)",
-      "region": "PP",
-      "category": [
-        "02: Perilous Pastures"
-      ],
-      "requires": "|Key (PP):3| OR (|Key (PP):2| AND {YamlEnabled(Core_Warnado_Jumps)} AND |Soulgem Warnado|)"
-    },
-    {
-      "name": "PP: TreasureChest Ancient Stones (Water)",
-      "region": "PP",
-      "category": [
-        "02: Perilous Pastures"
-      ],
-      "requires": "(|Key (PP):3| OR (|Key (PP):2| AND {YamlEnabled(Core_Warnado_Jumps)} AND |Soulgem Warnado|)) AND |@Water|"
-    },
-    {
-      "name": "PP: StoryScroll",
-      "region": "PP",
-      "category": [
-        "02: Perilous Pastures"
-      ],
-      "requires": "|Key (PP):2|"
-    },
-    {
-      "region": "SSD",
-      "name": "SSD: Complete Level",
-      "category": [
-        "03: Sky Schooner Docks"
-      ],
-      "requires": "|Key (SSD):1| OR (|Soulgem Ghost Roaster| AND {YamlEnabled(Ghost_Roaster_Launches)})"
-    },
-    {
-      "name": "SSD: Key Start",
-      "region": "SSD",
-      "category": [
-        "03: Sky Schooner Docks"
+        "01_Shattered Island"
       ],
       "requires": ""
     },
-    {
-      "name": "SSD: Key Undead Gate",
-      "region": "SSD",
+{
+      "name": "01_SI_TreasureChest Market Curve",
+      "region": "Ch01 Key1",
       "category": [
-        "03: Sky Schooner Docks"
+        "01_Shattered Island"
       ],
-      "requires": "(|Key (SSD):1| AND |@Undead:1|) OR (|Soulgem Ghost Roaster| AND {YamlEnabled(Ghost_Roaster_Launches)})"
+      "requires": ""
     },
-    {
-      "name": "SSD: Soulgem SonicBoom",
-      "region": "SSD",
+{
+      "name": "01_SI_Key Palace",
+      "region": "Ch01 Key2",
       "category": [
-        "03: Sky Schooner Docks"
+        "01_Shattered Island"
       ],
-      "requires": "|Key (SSD):1| OR (|Soulgem Ghost Roaster| AND {YamlEnabled(Ghost_Roaster_Launches)})"
+      "requires": ""
     },
-    {
-      "name": "SSD: LegendaryTreasure",
-      "region": "SSD",
+{
+      "name": "01_SI_StoryScroll",
+      "region": "Ch01 Key2",
       "category": [
-        "03: Sky Schooner Docks"
+        "01_Shattered Island"
       ],
-      "requires": "|Key (SSD):1| OR (|Soulgem Ghost Roaster| AND {YamlEnabled(Ghost_Roaster_Launches)})"
+      "requires": ""
     },
-    {
-      "region": "SSD",
-      "name": "SSD: Hat UndeadGate",
+{
+      "name": "01_SI_TreasureChest Ancient Landmark",
+      "region": "Ch01 Key2",
       "category": [
-        "03: Sky Schooner Docks"
+        "01_Shattered Island"
       ],
-      "requires": "(|Key (SSD):2| AND |@Undead:1|) OR (|Soulgem Ghost Roaster| AND {YamlEnabled(Ghost_Roaster_Launches)})"
+      "requires": ""
     },
-    {
-      "name": "SSD: Hat EarthGate",
-      "region": "SSD",
+{
+      "name": "01_SI_TreasureChest Chompy Pit",
+      "region": "Ch01 Key2",
       "category": [
-        "03: Sky Schooner Docks"
+        "01_Shattered Island"
       ],
-      "requires": "(|Key (SSD):1| OR (|Soulgem Ghost Roaster| AND {YamlEnabled(Ghost_Roaster_Launches)})) AND |@Earth|"
+      "requires": "(|@Water| OR |@Flight|)"
     },
-    {
-      "name": "SSD: TreasureChest Propeller Farm (Undead)",
-      "region": "SSD",
+{
+      "name": "01_SI_Complete Level",
+      "region": "Ch01 Key3",
       "category": [
-        "03: Sky Schooner Docks"
+        "01_Shattered Island"
       ],
-      "requires": "(|Key (SSD):1| AND |@Undead|) OR (|Soulgem Ghost Roaster| AND {YamlEnabled(Ghost_Roaster_Launches)})"
+      "requires": ""
     },
-    {
-      "region": "SSD",
-      "name": "SSD: TreasureChest Fortress Tower (Path)",
+{
+      "name": "01_SI_Hat MagicGate",
+      "region": "Ch01 Magic",
       "category": [
-        "03: Sky Schooner Docks"
+        "01_Shattered Island"
       ],
-      "requires": "(|Key (SSD):1| OR (|Soulgem Ghost Roaster| AND {YamlEnabled(Ghost_Roaster_Launches)})"
+      "requires": ""
     },
-    {
-      "region": "SSD",
-      "name": "SSD: TreasureChest Kaws Island (Earth)",
+{
+      "name": "01_SI_SoulGem ChopChop",
+      "region": "Ch01 Magic",
       "category": [
-        "03: Sky Schooner Docks"
+        "01_Shattered Island"
       ],
-      "requires": "(|Key (SSD):1| OR (|Soulgem Ghost Roaster| AND {YamlEnabled(Ghost_Roaster_Launches)})) AND |@Earth|"
+      "requires": ""
     },
-    {
-      "region": "SSD",
+{
+      "name": "01_SI_Hat TechGate",
+      "region": "Ch01 Tech",
       "category": [
-        "03: Sky Schooner Docks"
+        "01_Shattered Island"
       ],
-      "requires": "(|Key (SSD):1| OR (|Soulgem Ghost Roaster| AND {YamlEnabled(Ghost_Roaster_Launches)})",
-      "name": "SSD: Story Scroll"
+      "requires": ""
     },
-    {
+{
+      "name": "01_SI_Hat WaterGate",
+      "region": "Ch01 Water",
       "category": [
-        "04: Stormy Stronghold"
+        "01_Shattered Island"
       ],
-      "requires": "|Key (SS)| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})",
-      "region": "SS",
-      "name": "SS: Fight in the Stronghold",
+      "requires": ""
+    },
+{
+      "name": "02_PP_Key Start",
+      "region": "02_PP",
+      "category": [
+        "02_Perilous Pastures"
+      ],
+      "requires": ""
+    },
+{
+      "name": "02_PP_Key Drow",
+      "region": "Ch02 Key1",
+      "category": [
+        "02_Perilous Pastures"
+      ],
+      "requires": ""
+    },
+{
+      "name": "02_PP_Key PodArena",
+      "region": "Ch02 Key2",
+      "category": [
+        "02_Perilous Pastures"
+      ],
+      "requires": ""
+    },
+{
+      "name": "02_PP_StoryScroll",
+      "region": "Ch02 Key2",
+      "category": [
+        "02_Perilous Pastures"
+      ],
+      "requires": ""
+    },
+{
+      "name": "02_PP_TreasureChest FairyRing",
+      "region": "Ch02 Key2",
+      "category": [
+        "02_Perilous Pastures"
+      ],
+      "requires": ""
+    },
+{
+      "name": "02_PP_Complete Level",
+      "region": "Ch02 Key3",
+      "category": [
+        "02_Perilous Pastures"
+      ],
+      "requires": ""
+    },
+{
+      "name": "02_PP_LegendaryTreasure",
+      "region": "Ch02 Life Bonus",
+      "category": [
+        "02_Perilous Pastures"
+      ],
+      "requires": ""
+    },
+{
+      "name": "02_PP_Hat TechGate",
+      "region": "Ch02 Tech",
+      "category": [
+        "02_Perilous Pastures"
+      ],
+      "requires": ""
+    },
+{
+      "name": "02_PP_SoulGem StumpSmash",
+      "region": "Ch02 Tech",
+      "category": [
+        "02_Perilous Pastures"
+      ],
+      "requires": ""
+    },
+{
+      "name": "02_PP_TreasureChest Bleating Heigts",
+      "region": "Ch02 Tech",
+      "category": [
+        "02_Perilous Pastures"
+      ],
+      "requires": ""
+    },
+{
+      "name": "02_PP_Hat WaterGate",
+      "region": "Ch02 Water",
+      "category": [
+        "02_Perilous Pastures"
+      ],
+      "requires": ""
+    },
+{
+      "name": "02_PP_TreasureChest Ancient Stones",
+      "region": "Ch02 Water",
+      "category": [
+        "02_Perilous Pastures"
+      ],
+      "requires": ""
+    },
+{
+      "name": "03_SSD_Hat EarthGate",
+      "region": "Ch03 Earth",
+      "category": [
+        "03_Sky Schooner Docks"
+      ],
+      "requires": ""
+    },
+{
+      "name": "03_SSD_TreasureChest Kaws Island",
+      "region": "Ch03 Earth",
+      "category": [
+        "03_Sky Schooner Docks"
+      ],
+      "requires": ""
+    },
+{
+      "name": "03_SSD_Key Start",
+      "region": "03_SSD",
+      "category": [
+        "03_Sky Schooner Docks"
+      ],
+      "requires": ""
+    },
+{
+      "name": "03_SSD_Complete Level",
+      "region": "Ch03 Key1",
+      "category": [
+        "03_Sky Schooner Docks"
+      ],
+      "requires": ""
+    },
+{
+      "name": "03_SSD_LegendaryTreasure",
+      "region": "Ch03 Key1",
+      "category": [
+        "03_Sky Schooner Docks"
+      ],
+      "requires": ""
+    },
+{
+      "name": "03_SSD_Soulgem SonicBoom",
+      "region": "Ch03 Key1",
+      "category": [
+        "03_Sky Schooner Docks"
+      ],
+      "requires": ""
+    },
+{
+      "name": "03_SSD_Story Scroll",
+      "region": "Ch03 Key1",
+      "category": [
+        "03_Sky Schooner Docks"
+      ],
+      "requires": ""
+    },
+{
+      "name": "03_SSD_TreasureChest Fortress Tower",
+      "region": "Ch03 Key1",
+      "category": [
+        "03_Sky Schooner Docks"
+      ],
+      "requires": ""
+    },
+{
+      "name": "03_SSD_Key Undead",
+      "region": "Ch03 Undead",
+      "category": [
+        "03_Sky Schooner Docks"
+      ],
+      "requires": ""
+    },
+{
+      "name": "03_SSD_TreasureChest Propeller Farm",
+      "region": "Ch03 Undead",
+      "category": [
+        "03_Sky Schooner Docks"
+      ],
+      "requires": ""
+    },
+{
+      "name": "03_SSD_Hat UndeadGate",
+      "region": "Ch03 Undead Key2",
+      "category": [
+        "03_Sky Schooner Docks"
+      ],
+      "requires": ""
+    },
+{
+      "name": "04_SS_Hat AirGate",
+      "region": "Ch04 Air",
+      "category": [
+        "04_Stormy Stronghold"
+      ],
+      "requires": ""
+    },
+{
+      "name": "04_SS_TreasureChest Sky Ramparts",
+      "region": "Ch04 Air",
+      "category": [
+        "04_Stormy Stronghold"
+      ],
+      "requires": ""
+    },
+{
+      "name": "04_SS_Key Start",
+      "region": "04_SS",
+      "category": [
+        "04_Stormy Stronghold"
+      ],
+      "requires": ""
+    },
+{
+      "name": "04_SS_Story Scroll",
+      "region": "04_SS",
+      "category": [
+        "04_Stormy Stronghold"
+      ],
+      "requires": ""
+    },
+{
+      "name": "04_SS_Complete Level",
+      "region": "Ch04 Key1",
+      "category": [
+        "04_Stormy Stronghold"
+      ],
+      "requires": ""
+    },
+{
+      "name": "04_SS_Fight in the Stronghold",
+      "region": "Ch04 Key1",
+      "category": [
+        "04_Stormy Stronghold"
+      ],
+      "requires": "",
       "place_item": [
         "Eternal Air Source"
       ]
     },
-    {
+{
+      "name": "04_SS_LegendaryTreasure",
+      "region": "Ch04 Key1",
       "category": [
-        "04: Stormy Stronghold"
-      ],
-      "requires": "",
-      "name": "SS: Key Start",
-      "region": "SS"
-    },
-    {
-      "name": "SS: SoulGem Warnado",
-      "region": "SS",
-      "category": [
-        "04: Stormy Stronghold"
-      ],
-      "requires": "|Key (SS)| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})"
-    },
-    {
-      "name": "SS: LegendaryTreasure",
-      "region": "SS",
-      "category": [
-        "04: Stormy Stronghold"
-      ],
-      "requires": "|Key (SS)| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})"
-    },
-    {
-      "name": "SS: Hat LifeGate",
-      "region": "SS",
-      "category": [
-        "04: Stormy Stronghold"
-      ],
-      "requires": "(|Key (SS)| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})) AND |@Life|"
-    },
-    {
-      "name": "SS: Hat AirGate",
-      "region": "SS",
-      "category": [
-        "04: Stormy Stronghold"
-      ],
-      "requires": "(|Key (SS)| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})) AND |@Air|"
-    },
-    {
-      "name": "SS: TreasureChest Upper Reach (Life)",
-      "region": "SS",
-      "category": [
-        "04: Stormy Stronghold"
-      ],
-      "requires": "(|Key (SS)| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})) AND |@Life|"
-    },
-    {
-      "name": "SS: TreasureChest Sky Ramparts (Air)",
-      "region": "SS",
-      "category": [
-        "04: Stormy Stronghold"
-      ],
-      "requires": "(|Key (SS)| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})) AND |@Air|"
-    },
-    {
-      "name": "SS: TreasureChest The Battlement (Off-Path)",
-      "region": "SS",
-      "category": [
-        "04: Stormy Stronghold"
-      ],
-      "requires": "|Key (SS)| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})"
-    },
-    {
-      "name": "SS: StoryScroll",
-      "region": "SS",
-      "category": [
-        "04: Stormy Stronghold"
+        "04_Stormy Stronghold"
       ],
       "requires": ""
     },
-    {
-      "region": "OSI",
-      "name": "OSI: Complete Level",
+{
+      "name": "04_SS_SoulGem Warnado",
+      "region": "Ch04 Key1",
       "category": [
-        "05: Oilspill Island"
-      ],
-      "requires": "|Key (OSI):5|"
-    },
-    {
-      "region": "OSI",
-      "name": "OSI: Key First Cage",
-      "category": [
-        "05: Oilspill Island"
+        "04_Stormy Stronghold"
       ],
       "requires": ""
     },
-    {
-      "region": "OSI",
-      "name": "OSI: Key Refinery Square Cage",
+{
+      "name": "04_SS_TreasureChest The Battlement",
+      "region": "Ch04 Key1",
       "category": [
-        "05: Oilspill Island"
+        "04_Stormy Stronghold"
       ],
       "requires": ""
     },
-    {
-      "region": "OSI",
-      "name": "OSI: Key Fire Cage ",
+{
+      "name": "04_SS_Hat LifeGate",
+      "region": "Ch04 Life",
       "category": [
-        "05: Oilspill Island"
+        "04_Stormy Stronghold"
       ],
       "requires": ""
     },
-    {
-      "region": "OSI",
-      "name": "OSI: Key Island Cage",
+{
+      "name": "04_SS_TreasureChest Upper Reach",
+      "region": "Ch04 Life",
       "category": [
-        "05: Oilspill Island"
+        "04_Stormy Stronghold"
       ],
       "requires": ""
     },
-    {
-      "name": "OSI: Key Tank Cage",
-      "region": "OSI",
+{
+      "name": "05_OSI_Hat FireGate",
+      "region": "Ch05 Fire",
       "category": [
-        "05: Oilspill Island"
+        "05_Oilspill Island"
       ],
       "requires": ""
     },
-    {
-      "name": "OSI: SoulGem WhamShell",
-      "region": "OSI",
+{
+      "name": "05_OSI_LegendaryTreasure",
+      "region": "Ch05 Fire",
       "category": [
-        "05: Oilspill Island"
+        "05_Oilspill Island"
+      ],
+      "requires": ""
+    },
+{
+      "name": "05_OSI_Key Fire Cage ",
+      "region": "05_OSI",
+      "category": [
+        "05_Oilspill Island"
+      ],
+      "requires": ""
+    },
+{
+      "name": "05_OSI_Key First Cage",
+      "region": "05_OSI",
+      "category": [
+        "05_Oilspill Island"
+      ],
+      "requires": ""
+    },
+{
+      "name": "05_OSI_Key Island Cage",
+      "region": "05_OSI",
+      "category": [
+        "05_Oilspill Island"
+      ],
+      "requires": ""
+    },
+{
+      "name": "05_OSI_Key Refinery Square Cage",
+      "region": "05_OSI",
+      "category": [
+        "05_Oilspill Island"
+      ],
+      "requires": ""
+    },
+{
+      "name": "05_OSI_Key Tank Cage",
+      "region": "05_OSI",
+      "category": [
+        "05_Oilspill Island"
+      ],
+      "requires": ""
+    },
+{
+      "name": "05_OSI_SoulGem Boomer",
+      "region": "05_OSI",
+      "category": [
+        "05_Oilspill Island"
       ],
       "requires": "|@Water| OR |@Flight|"
     },
-    {
-      "name": "OSI: SoulGem Boomer",
-      "region": "OSI",
+{
+      "name": "05_OSI_SoulGem WhamShell",
+      "region": "05_OSI",
       "category": [
-        "05: Oilspill Island"
+        "05_Oilspill Island"
       ],
       "requires": "|@Water| OR |@Flight|"
     },
-    {
-      "name": "OSI: LegendaryTreasure",
-      "region": "OSI",
+{
+      "name": "05_OSI_Story Scroll",
+      "region": "05_OSI",
       "category": [
-        "05: Oilspill Island"
-      ],
-      "requires": "|@Fire|"
-    },
-    {
-      "name": "OSI: Hat FireGate",
-      "region": "OSI",
-      "category": [
-        "05: Oilspill Island"
-      ],
-      "requires": "|@Fire|"
-    },
-    {
-      "name": "OSI: TreasureChest Access Platform Beta (Path)",
-      "region": "OSI",
-      "category": [
-        "05: Oilspill Island"
+        "05_Oilspill Island"
       ],
       "requires": ""
     },
-    {
-      "name": "OSI: TreasureChest Drill Platform Delta Lower (Off-Path)",
-      "region": "OSI",
+{
+      "name": "05_OSI_TreasureChest Access Platform Beta",
+      "region": "05_OSI",
       "category": [
-        "05: Oilspill Island"
+        "05_Oilspill Island"
       ],
       "requires": ""
     },
-    {
-      "name": "OSI: TreasureChest Drill Platform Delta Upper (Ending Path)",
-      "region": "OSI",
+{
+      "name": "05_OSI_TreasureChest Drill Platform Delta",
+      "region": "05_OSI",
       "category": [
-        "05: Oilspill Island"
-      ],
-      "requires": "|Key (OSI):5|"
-    },
-    {
-      "name": "OSI: StoryScroll",
-      "region": "OSI",
-      "category": [
-        "05: Oilspill Island"
+        "05_Oilspill Island"
       ],
       "requires": ""
     },
-    {
-      "name": "DWC: Complete Level",
-      "region": "DWC",
+{
+      "name": "05_OSI_Complete Level",
+      "region": "Ch05 Key5",
       "category": [
-        "06: Dark Water Cove"
-      ],
-      "requires": "|Key (DWC):2| OR (|Key (DWC):1| AND (|Soulgem Bash| OR |Soulgem Warnado|) AND {YamlEnabled(Skip_to_2nd_DWC_Ship)})"
-    },
-    {
-      "name": "DWC: Key Lookout Point",
-      "region": "DWC",
-      "category": [
-        "06: Dark Water Cove"
+        "05_Oilspill Island"
       ],
       "requires": ""
     },
-    {
-      "name": "DWC: Key Town",
-      "region": "DWC",
+{
+      "name": "05_OSI_TreasureChest Exhaust Vent Zeta",
+      "region": "Ch05 Key5",
       "category": [
-        "06: Dark Water Cove"
-      ],
-      "requires": "|Key (DWC):1|"
-    },
-    {
-      "name": "DWC: SoulGem DinoRang",
-      "region": "DWC",
-      "category": [
-        "06: Dark Water Cove"
+        "05_Oilspill Island"
       ],
       "requires": ""
     },
-    {
-      "name": "DWC: SoulGem Ignitor",
-      "region": "DWC",
+{
+      "name": "06_DWC_Key After Ship",
+      "region": "06_DWC",
       "category": [
-        "06: Dark Water Cove"
+        "06_Dark Water Cove"
       ],
-      "requires": "|Key (DWC):1|"
+      "requires": ""
     },
-    {
-      "name": "DWC: LegendaryTreasure",
-      "region": "DWC",
+{
+      "name": "06_DWC_SoulGem DinoRang",
+      "region": "06_DWC",
       "category": [
-        "06: Dark Water Cove"
+        "06_Dark Water Cove"
       ],
-      "requires": "|Key (DWC):1|"
+      "requires": ""
     },
-    {
-      "name": "DWC: Hat MagicGate",
-      "region": "DWC",
+{
+      "name": "06_DWC_Key Town",
+      "region": "Ch06 Key1",
       "category": [
-        "06: Dark Water Cove"
+        "06_Dark Water Cove"
       ],
-      "requires": "|Key (DWC):1| AND |@Magic|"
+      "requires": ""
     },
-    {
-      "name": "DWC: Hat WaterGate",
-      "region": "DWC",
+{
+      "name": "06_DWC_LegendaryTreasure",
+      "region": "Ch06 Key1",
       "category": [
-        "06: Dark Water Cove"
+        "06_Dark Water Cove"
       ],
-      "requires": "(|Key (DWC):2| OR (|Key (DWC):1| AND (|Soulgem Bash| OR |Soulgem Warnado|) AND {YamlEnabled(Skip_to_2nd_DWC_Ship)})) AND |@Water|"
+      "requires": ""
     },
-    {
-      "name": "DWC: TreasureChest East Gate (Path)",
-      "region": "DWC",
+{
+      "name": "06_DWC_SoulGem Ignitor",
+      "region": "Ch06 Key1",
       "category": [
-        "06: Dark Water Cove"
+        "06_Dark Water Cove"
       ],
-      "requires": "|Key (DWC):1| OR |Soulgem Warnado|"
+      "requires": ""
     },
-    {
-      "name": "DWC: TreasureChest West Gate (Off-Path)",
-      "region": "DWC",
+{
+      "name": "06_DWC_StoryScroll",
+      "region": "Ch06 Key1",
       "category": [
-        "06: Dark Water Cove"
+        "06_Dark Water Cove"
       ],
-      "requires": "|Key (DWC):2| OR (|Key (DWC):1| AND |Soulgem Bash| AND {YamlEnabled(Skip_to_2nd_DWC_Ship)}) OR (|Soulgem Warnado| AND {YamlEnabled(Skip_to_2nd_DWC_Ship)})"
+      "requires": "(|@Water| OR |@Flight|)"
     },
-    {
-      "name": "DWC: TreasureChest Watery Graves (Water)",
-      "region": "DWC",
+{
+      "name": "06_DWC_TreasureChest East Gate",
+      "region": "Ch06 Key1",
       "category": [
-        "06: Dark Water Cove"
+        "06_Dark Water Cove"
       ],
-      "requires": "(|Key (DWC):2| OR (|Key (DWC):1| AND |Soulgem Bash| AND {YamlEnabled(Skip_to_2nd_DWC_Ship)}) OR (|Soulgem Warnado| AND {YamlEnabled(Skip_to_2nd_DWC_Ship)})) AND |@Water|"
+      "requires": ""
     },
-    {
-      "name": "DWC: StoryScroll",
-      "region": "DWC",
+{
+      "name": "06_DWC_Complete Level",
+      "region": "Ch06 Key2",
       "category": [
-        "06: Dark Water Cove"
+        "06_Dark Water Cove"
       ],
-      "requires": "|Key (DWC):1| AND (|@Water| OR |@Flight|)"
+      "requires": ""
     },
-    {
-      "name": "LL: Kaos in the Leviathan",
-      "region": "LL",
+{
+      "name": "06_DWC_TreasureChest West Gate",
+      "region": "Ch06 Key2",
       "category": [
-        "07: Leviathan Lagoon"
+        "06_Dark Water Cove"
       ],
-      "requires": "(|Key (LL)| OR (|@Water| OR |@Flight|)) AND (|@Skylanders:3| OR {YamlDisabled(Kaos_Fights_Require_3_Skylanders)})",
+      "requires": ""
+    },
+{
+      "name": "06_DWC_Hat MagicGate",
+      "region": "Ch06 Magic",
+      "category": [
+        "06_Dark Water Cove"
+      ],
+      "requires": ""
+    },
+{
+      "name": "06_DWC_Hat WaterGate",
+      "region": "Ch06 Water",
+      "category": [
+        "06_Dark Water Cove"
+      ],
+      "requires": ""
+    },
+{
+      "name": "06_DWC_TreasureChest Watery Graves",
+      "region": "Ch06 Water",
+      "category": [
+        "06_Dark Water Cove"
+      ],
+      "requires": ""
+    },
+{
+      "name": "07_LL_Key Thief",
+      "region": "07_LL",
+      "category": [
+        "07_Leviathan Lagoon"
+      ],
+      "requires": ""
+    },
+{
+      "name": "07_LL_StoryScroll",
+      "region": "07_LL",
+      "category": [
+        "07_Leviathan Lagoon"
+      ],
+      "requires": ""
+    },
+{
+      "name": "07_LL_Complete Level",
+      "region": "Ch07 Key1",
+      "category": [
+        "07_Leviathan Lagoon"
+      ],
+      "requires": "(|@Skylanders:3| OR {YamlDisabled(Kaos_Fights_Require_3_Skylanders)})"
+    },
+{
+      "name": "07_LL_Kaos in the Leviathan",
+      "region": "Ch07 Key1",
+      "category": [
+        "07_Leviathan Lagoon"
+      ],
+      "requires": "(|@Skylanders:3| OR {YamlDisabled(Kaos_Fights_Require_3_Skylanders)})",
       "place_item": [
         "Eternal Water Source"
       ]
     },
-    {
-      "name": "LL: Key Stolen",
-      "region": "LL",
+{
+      "name": "07_LL_LegendaryTreasure",
+      "region": "Ch07 Key1",
       "category": [
-        "07: Leviathan Lagoon"
+        "07_Leviathan Lagoon"
+      ],
+      "requires": "|@Water| OR |@Flight|"
+    },
+{
+      "name": "07_LL_SoulGem Zap",
+      "region": "Ch07 Key1",
+      "category": [
+        "07_Leviathan Lagoon"
       ],
       "requires": ""
     },
-    {
+{
+      "name": "07_LL_TreasureChest Sharks Tooth Island Plank",
+      "region": "Ch07 Key1",
       "category": [
-        "07: Leviathan Lagoon"
+        "07_Leviathan Lagoon"
       ],
-      "requires": "|Key (LL)| OR (|@Water| OR |@Flight|)",
-      "name": "LL: SoulGem Zap",
-      "region": "LL"
+      "requires": ""
     },
-    {
+{
+      "name": "07_LL_TreasureChest Sharks Tooth Island Turret",
+      "region": "Ch07 Key1",
       "category": [
-        "07: Leviathan Lagoon"
+        "07_Leviathan Lagoon"
       ],
-      "requires": "|@Water| OR |@Flight|",
-      "name": "LL: LegendaryTreasure",
-      "region": "LL"
+      "requires": ""
     },
-    {
+{
+      "name": "07_LL_Hat WaterGate",
+      "region": "Ch07 Water",
       "category": [
-        "07: Leviathan Lagoon"
+        "07_Leviathan Lagoon"
       ],
-      "requires": "|@Water| ",
-      "name": "LL: Hat WaterGate",
-      "region": "LL"
+      "requires": ""
     },
-    {
+{
+      "name": "07_LL_TreasureChest Plank Walk",
+      "region": "Ch07 Water",
       "category": [
-        "07: Leviathan Lagoon"
+        "07_Leviathan Lagoon"
       ],
-      "requires": "|@Water| ",
-      "name": "LL: TreasureChest Plank Walk (Water)",
-      "region": "LL"
+      "requires": ""
     },
-    {
+{
+      "name": "08_CEC_Hat EarthGate",
+      "region": "Ch08 Earth",
       "category": [
-        "07: Leviathan Lagoon"
+        "08_Crystal Eye Castle"
       ],
-      "requires": "|Key (LL)| OR (|@Water| OR |@Flight|)",
-      "name": "LL: TreasureChest Sharks Tooth Island Plank (Path)",
-      "region": "LL"
+      "requires": ""
     },
-    {
+{
+      "name": "08_CEC_TreasureChest Puzzle Pit",
+      "region": "Ch08 Earth",
       "category": [
-        "07: Leviathan Lagoon"
+        "08_Crystal Eye Castle"
+      ],
+      "requires": ""
+    },
+{
+      "name": "08_CEC_Complete Level",
+      "region": "08_CEC",
+      "category": [
+        "08_Crystal Eye Castle"
+      ],
+      "requires": ""
+    },
+{
+      "name": "08_CEC_LegendaryTreasure",
+      "region": "08_CEC",
+      "category": [
+        "08_Crystal Eye Castle"
+      ],
+      "requires": ""
+    },
+{
+      "name": "08_CEC_SoulGem PrismBreak",
+      "region": "08_CEC",
+      "category": [
+        "08_Crystal Eye Castle"
+      ],
+      "requires": ""
+    },
+{
+      "name": "08_CEC_StoryScroll",
+      "region": "08_CEC",
+      "category": [
+        "08_Crystal Eye Castle"
+      ],
+      "requires": ""
+    },
+{
+      "name": "08_CEC_TreasureChest Inner Courtyard",
+      "region": "08_CEC",
+      "category": [
+        "08_Crystal Eye Castle"
+      ],
+      "requires": ""
+    },
+{
+      "name": "08_CEC_TreasureChest Outer Courtyard",
+      "region": "08_CEC",
+      "category": [
+        "08_Crystal Eye Castle"
+      ],
+      "requires": ""
+    },
+{
+      "name": "08_CEC_Hat UndeadGate",
+      "region": "Ch08 Undead",
+      "category": [
+        "08_Crystal Eye Castle"
+      ],
+      "requires": ""
+    },
+{
+      "name": "09_ST_Key Outside",
+      "region": "09_ST",
+      "category": [
+        "09_Stonetown"
+      ],
+      "requires": ""
+    },
+{
+      "name": "09_ST_LegendaryTreasure",
+      "region": "09_ST",
+      "category": [
+        "09_Stonetown"
+      ],
+      "requires": "|@Speed9|"
+    },
+{
+      "name": "09_ST_SoulGem LightningRod",
+      "region": "09_ST",
+      "category": [
+        "09_Stonetown"
+      ],
+      "requires": ""
+    },
+{
+      "name": "09_ST_StoryScroll",
+      "region": "09_ST",
+      "category": [
+        "09_Stonetown"
+      ],
+      "requires": ""
+    },
+{
+      "name": "09_ST_TreasureChest Blue Water Swamp Hidden",
+      "region": "09_ST",
+      "category": [
+        "09_Stonetown"
+      ],
+      "requires": ""
+    },
+{
+      "name": "09_ST_TreasureChest Blue Water Swamp Island ",
+      "region": "09_ST",
+      "category": [
+        "09_Stonetown"
+      ],
+      "requires": "|@Water| OR |@Flight|"
+    },
+{
+      "name": "09_ST_Key Inside By Gate",
+      "region": "Ch09 Key1",
+      "category": [
+        "09_Stonetown"
+      ],
+      "requires": ""
+    },
+{
+      "name": "09_ST_Key Inside Puzzle",
+      "region": "Ch09 Key1",
+      "category": [
+        "09_Stonetown"
+      ],
+      "requires": ""
+    },
+{
+      "name": "09_ST_Key Inside Stolen",
+      "region": "Ch09 Key1",
+      "category": [
+        "09_Stonetown"
+      ],
+      "requires": ""
+    },
+{
+      "name": "09_ST_Complete Level",
+      "region": "Ch09 Key4",
+      "category": [
+        "09_Stonetown"
+      ],
+      "requires": ""
+    },
+{
+      "name": "09_ST_SoulGem Bash",
+      "region": "Ch09 Key4",
+      "category": [
+        "09_Stonetown"
+      ],
+      "requires": ""
+    },
+{
+      "name": "09_ST_The Stone Golem",
+      "region": "Ch09 Key4",
+      "category": [
+        "09_Stonetown"
       ],
       "requires": "",
-      "name": "LL: TreasureChest Sharks Tooth Island Turret (Path)",
-      "region": "LL"
-    },
-    {
-      "category": [
-        "07: Leviathan Lagoon"
-      ],
-      "requires": "",
-      "region": "LL",
-      "name": "LL: StoryScroll"
-    },
-    {
-      "name": "CEC: Complete Level",
-      "region": "CEC",
-      "category": [
-        "08: Crystal Eye Castle"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "CEC: SoulGem PrismBreak",
-      "region": "CEC",
-      "category": [
-        "08: Crystal Eye Castle"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "CEC: LegendaryTreasure",
-      "region": "CEC",
-      "category": [
-        "08: Crystal Eye Castle"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "CEC: Hat EarthGate",
-      "region": "CEC",
-      "category": [
-        "08: Crystal Eye Castle"
-      ],
-      "requires": "|@Earth| "
-    },
-    {
-      "name": "CEC: Hat UndeadGate",
-      "region": "CEC",
-      "category": [
-        "08: Crystal Eye Castle"
-      ],
-      "requires": "|@Undead|"
-    },
-    {
-      "name": "CEC: TreasureChest Puzzle Pit (Earth)",
-      "region": "CEC",
-      "category": [
-        "08: Crystal Eye Castle"
-      ],
-      "requires": "|@Earth| "
-    },
-    {
-      "name": "CEC: TreasureChest Inner Courtyard (Path)",
-      "region": "CEC",
-      "category": [
-        "08: Crystal Eye Castle"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "CEC: TreasureChest Outer Courtyard (Path)",
-      "region": "CEC",
-      "category": [
-        "08: Crystal Eye Castle"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "CEC: StoryScroll",
-      "region": "CEC",
-      "category": [
-        "08: Crystal Eye Castle"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "ST: The Stone Golem",
-      "region": "ST",
-      "category": [
-        "09: Stonetown"
-      ],
-      "requires": "|Key (ST):4| OR (|Key (ST):1| AND |Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)})",
       "place_item": [
         "Eternal Earth Source"
       ]
     },
-    {
-      "name": "ST: Key Outside",
-      "region": "ST",
+{
+      "name": "09_ST_Hat LifeGate",
+      "region": "Ch09 Life",
       "category": [
-        "09: Stonetown"
+        "09_Stonetown"
       ],
       "requires": ""
     },
-    {
-      "name": "ST: Key Inside By Gate",
-      "region": "ST",
+{
+      "name": "09_ST_TreasureChest Wayward Town",
+      "region": "Ch09 Life",
       "category": [
-        "09: Stonetown"
-      ],
-      "requires": "|Key (ST):1|"
-    },
-    {
-      "name": "ST: Key Inside Stolen",
-      "region": "ST",
-      "category": [
-        "09: Stonetown"
-      ],
-      "requires": "|Key (ST):1|"
-    },
-    {
-      "name": "ST: Key Inside Puzzle",
-      "region": "ST",
-      "category": [
-        "09: Stonetown"
-      ],
-      "requires": "|Key (ST):1|"
-    },
-    {
-      "name": "ST: SoulGem LightningRod",
-      "category": [
-        "09: Stonetown"
-      ],
-      "requires": "",
-      "region": "ST"
-    },
-    {
-      "name": "ST: SoulGem Bash",
-      "category": [
-        "09: Stonetown"
-      ],
-      "requires": "|Key (ST):4| OR (|Key (ST):1| AND |Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)})",
-      "region": "ST"
-    },
-    {
-      "category": [
-        "09: Stonetown"
-      ],
-      "requires": "|@Speed9|",
-      "name": "ST: LegendaryTreasure",
-      "region": "ST"
-    },
-    {
-      "category": [
-        "09: Stonetown"
-      ],
-      "requires": "(|Key (ST):4| OR (|Key (ST):1| AND |Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)})) AND |@Life|",
-      "name": "ST: Hat LifeGate",
-      "region": "ST"
-    },
-    {
-      "category": [
-        "09: Stonetown"
-      ],
-      "requires": "",
-      "name": "ST: TreasureChest Blue Water Swamp Side  (Off-Path)",
-      "region": "ST"
-    },
-    {
-      "category": [
-        "09: Stonetown"
-      ],
-      "requires": "|@Water| OR |@Flight|",
-      "name": "ST: TreasureChest Blue Water Swamp Island (Off-Path) ",
-      "region": "ST"
-    },
-    {
-      "category": [
-        "09: Stonetown"
-      ],
-      "requires": "(|Key (ST):4| OR (|Key (ST):1| AND |Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)})) AND |@Life|",
-      "name": "ST: TreasureChest Wayward Town (Life)",
-      "region": "ST"
-    },
-    {
-      "category": [
-        "09: Stonetown"
-      ],
-      "requires": "",
-      "name": "ST: StoryScroll",
-      "region": "ST"
-    },
-    {
-      "region": "TT",
-      "name": "TT: Complete Level",
-      "category": [
-        "10: Treetop Terrace"
+        "09_Stonetown"
       ],
       "requires": ""
     },
-    {
-      "region": "TT",
-      "name": "TT: SoulGem GillGrunt",
+{
+      "name": "10_TT_Complete Level",
+      "region": "10_TT",
       "category": [
-        "10: Treetop Terrace"
-      ],
-      "requires": "|@Magic|"
-    },
-    {
-      "region": "TT",
-      "name": "TT: LegendaryTreasure",
-      "category": [
-        "10: Treetop Terrace"
+        "10_Treetop Terrace"
       ],
       "requires": ""
     },
-    {
-      "region": "TT",
-      "name": "TT: Hat MagicGate",
+{
+      "name": "10_TT_LegendaryTreasure",
+      "region": "10_TT",
       "category": [
-        "10: Treetop Terrace"
-      ],
-      "requires": "|@Magic|"
-    },
-    {
-      "region": "TT",
-      "name": "TT: TreasureChest Sluice Gate Lower (Path)",
-      "category": [
-        "10: Treetop Terrace"
+        "10_Treetop Terrace"
       ],
       "requires": ""
     },
-    {
-      "region": "TT",
-      "name": "TT: TreasureChest Sluice Gate Upper (Path)",
+{
+      "name": "10_TT_StoryScroll",
+      "region": "10_TT",
       "category": [
-        "10: Treetop Terrace"
+        "10_Treetop Terrace"
       ],
       "requires": ""
     },
-    {
-      "region": "TT",
-      "name": "TT: TreasureChest The Canopy (End)",
+{
+      "name": "10_TT_TreasureChest Sluice Gate Lower",
+      "region": "10_TT",
       "category": [
-        "10: Treetop Terrace"
+        "10_Treetop Terrace"
       ],
       "requires": ""
     },
-    {
-      "region": "TT",
-      "name": "TT: StoryScroll",
+{
+      "name": "10_TT_TreasureChest Sluice Gate Upper",
+      "region": "10_TT",
       "category": [
-        "10: Treetop Terrace"
+        "10_Treetop Terrace"
       ],
       "requires": ""
     },
-    {
-      "region": "FF",
-      "name": "FF: Kaos in the Trees",
+{
+      "name": "10_TT_TreasureChest The Canopy (End)",
+      "region": "10_TT",
       "category": [
-        "11: Falling Forest"
+        "10_Treetop Terrace"
+      ],
+      "requires": ""
+    },
+{
+      "name": "10_TT_Hat MagicGate",
+      "region": "Ch10 Magic",
+      "category": [
+        "10_Treetop Terrace"
+      ],
+      "requires": ""
+    },
+{
+      "name": "10_TT_SoulGem GillGrunt",
+      "region": "Ch10 Magic",
+      "category": [
+        "10_Treetop Terrace"
+      ],
+      "requires": ""
+    },
+{
+      "name": "11_FF_Hat EarthGate",
+      "region": "Ch11 Earth",
+      "category": [
+        "11_Falling Forest"
+      ],
+      "requires": ""
+    },
+{
+      "name": "11_FF_TreasureChest Acorn Stash",
+      "region": "Ch11 Earth",
+      "category": [
+        "11_Falling Forest"
+      ],
+      "requires": ""
+    },
+{
+      "name": "11_FF_Complete Level",
+      "region": "11_FF",
+      "category": [
+        "11_Falling Forest"
+      ],
+      "requires": "(|@Skylanders:3| OR {YamlDisabled(Kaos_Fights_Require_3_Skylanders)})"
+    },
+{
+      "name": "11_FF_Kaos in the Trees",
+      "region": "11_FF",
+      "category": [
+        "11_Falling Forest"
       ],
       "requires": "(|@Skylanders:3| OR {YamlDisabled(Kaos_Fights_Require_3_Skylanders)})",
       "place_item": [
         "Eternal Life Source"
       ]
     },
-    {
-      "name": "FF: SoulGem StealthElf",
-      "region": "FF",
+{
+      "name": "11_FF_LegendaryTreasure",
+      "region": "11_FF",
       "category": [
-        "11: Falling Forest"
+        "11_Falling Forest"
       ],
       "requires": ""
     },
-    {
-      "name": "FF: LegendaryTreasure",
-      "region": "FF",
+{
+      "name": "11_FF_SoulGem StealthElf",
+      "region": "11_FF",
       "category": [
-        "11: Falling Forest"
+        "11_Falling Forest"
       ],
       "requires": ""
     },
-    {
-      "name": "FF: Hat EarthGate",
-      "region": "FF",
+{
+      "name": "11_FF_StoryScroll",
+      "region": "11_FF",
       "category": [
-        "11: Falling Forest"
-      ],
-      "requires": "|@Earth|"
-    },
-    {
-      "name": "FF: TreasureChest Owls Roost (Path)",
-      "region": "FF",
-      "category": [
-        "11: Falling Forest"
+        "11_Falling Forest"
       ],
       "requires": ""
     },
-    {
-      "name": "FF: TreasureChest Acorn Stash (Earth)",
-      "region": "FF",
+{
+      "name": "11_FF_TreasureChest Owls Roost",
+      "region": "11_FF",
       "category": [
-        "11: Falling Forest"
-      ],
-      "requires": "|@Earth|"
-    },
-    {
-      "name": "FF: TreasureChest Pinecones Landing (Off-Path)",
-      "region": "FF",
-      "category": [
-        "11: Falling Forest"
+        "11_Falling Forest"
       ],
       "requires": ""
     },
-    {
-      "name": "FF: StoryScroll",
-      "region": "FF",
+{
+      "name": "11_FF_TreasureChest Pinecones Landing",
+      "region": "11_FF",
       "category": [
-        "11: Falling Forest"
+        "11_Falling Forest"
       ],
       "requires": ""
     },
-    {
-      "region": "TWH",
-      "name": "TWH: Complete Level",
+{
+      "name": "12_TWH_Hat FireGate",
+      "region": "Ch12 Fire",
       "category": [
-        "12: Troll Warehouse"
+        "12_Troll Warehouse"
       ],
       "requires": ""
     },
-    {
-      "region": "TWH",
-      "name": "TWH: Gate Key Initial",
+{
+      "name": "12_TWH_Complete Level",
+      "region": "12_TWH",
       "category": [
-        "12: Troll Warehouse"
-      ],
-      "requires": "|@Life|"
-    },
-    {
-      "name": "TWH: Gate Right KeyPen Upper",
-      "region": "TWH",
-      "category": [
-        "12: Troll Warehouse"
-      ],
-      "requires": "|@Life| AND (|Key (TWH):1| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)}))"
-    },
-    {
-      "name": "TWH: Gate Right KeyPen Lower",
-      "region": "TWH",
-      "category": [
-        "12: Troll Warehouse"
-      ],
-      "requires": "|@Life| AND (|Key (TWH):1| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)}))"
-    },
-    {
-      "name": "TWH: Gate Middle Key",
-      "region": "TWH",
-      "category": [
-        "12: Troll Warehouse"
-      ],
-      "requires": "|@Life| AND (|Key (TWH):1| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)}))"
-    },
-    {
-      "name": "TWH: Gate Behind Puzzle Left Key",
-      "region": "TWH",
-      "category": [
-        "12: Troll Warehouse"
-      ],
-      "requires": "|@Life| AND (|Key (TWH):2| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)}))"
-    },
-    {
-      "name": "TWH: Gate Behind Puzzle Right Key",
-      "region": "TWH",
-      "category": [
-        "12: Troll Warehouse"
-      ],
-      "requires": "|@Life| AND (|Key (TWH):2| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)}))"
-    },
-    {
-      "name": "TWH: Gate Left KeyPen Upper",
-      "region": "TWH",
-      "category": [
-        "12: Troll Warehouse"
-      ],
-      "requires": "|@Life| AND (|Key (TWH):2| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)}))"
-    },
-    {
-      "name": "TWH: Gate Left KeyPen Lower",
-      "region": "TWH",
-      "category": [
-        "12: Troll Warehouse"
-      ],
-      "requires": "|@Life| AND (|Key (TWH):2| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)}))"
-    },
-    {
-      "name": "TWH: SoulGem Zook",
-      "region": "TWH",
-      "category": [
-        "12: Troll Warehouse"
+        "12_Troll Warehouse"
       ],
       "requires": ""
     },
-    {
-      "name": "TWH: LegendaryTreasure",
-      "region": "TWH",
+{
+      "name": "12_TWH_LegendaryTreasure",
+      "region": "12_TWH",
       "category": [
-        "12: Troll Warehouse"
-      ],
-      "requires": "|@Life| AND (|Key (TWH):3| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)}))"
-    },
-    {
-      "name": "TWH: Hat LifeGate",
-      "region": "TWH",
-      "category": [
-        "12: Troll Warehouse"
-      ],
-      "requires": "|@Life| AND (|Key (TWH):5| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)}))"
-    },
-    {
-      "name": "TWH: Hat FireGate",
-      "region": "TWH",
-      "category": [
-        "12: Troll Warehouse"
-      ],
-      "requires": "|@Fire|"
-    },
-    {
-      "name": "TWH: TreasureChest Isolation Cells (Life)",
-      "region": "TWH",
-      "category": [
-        "12: Troll Warehouse"
-      ],
-      "requires": "|@Life| AND (|Key (TWH):2| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)}))"
-    },
-    {
-      "name": "TWH: TreasureChest Access Catwalks (Path)",
-      "region": "TWH",
-      "category": [
-        "12: Troll Warehouse"
+        "12_Troll Warehouse"
       ],
       "requires": ""
     },
-    {
-      "name": "TWH: TreasureChest Minefield (Off-Path)",
-      "region": "TWH",
+{
+      "name": "12_TWH_SoulGem Zook",
+      "region": "12_TWH",
       "category": [
-        "12: Troll Warehouse"
+        "12_Troll Warehouse"
       ],
       "requires": ""
     },
-    {
-      "name": "TWH: StoryScroll",
-      "region": "TWH",
+{
+      "name": "12_TWH_StoryScroll",
+      "region": "12_TWH",
       "category": [
-        "12: Troll Warehouse"
+        "12_Troll Warehouse"
       ],
       "requires": ""
     },
-    {
-      "region": "GF",
-      "name": "GF: Complete Level",
+{
+      "name": "12_TWH_TreasureChest Access Catwalks",
+      "region": "12_TWH",
       "category": [
-        "13: Goo Factory"
+        "12_Troll Warehouse"
       ],
       "requires": ""
     },
-    {
-      "name": "GF: SoulGem Camo",
-      "region": "GF",
+{
+      "name": "12_TWH_TreasureChest Minefield",
+      "region": "12_TWH",
       "category": [
-        "13: Goo Factory"
+        "12_Troll Warehouse"
       ],
       "requires": ""
     },
-    {
-      "name": "GF: LegendaryTreasure",
-      "region": "GF",
+{
+      "name": "12_TWH_Gate Behind Puzzle Left Key",
+      "region": "Ch12 Life",
       "category": [
-        "13: Goo Factory"
-      ],
-      "requires": "|@Air|"
-    },
-    {
-      "name": "GF: Hat AirGate",
-      "region": "GF",
-      "category": [
-        "13: Goo Factory"
-      ],
-      "requires": "|@Air|"
-    },
-    {
-      "name": "GF: Hat FireGate",
-      "region": "GF",
-      "category": [
-        "13: Goo Factory"
-      ],
-      "requires": "|@Fire|"
-    },
-    {
-      "name": "GF: TreasureChest Western Trenches (Path)",
-      "region": "GF",
-      "category": [
-        "13: Goo Factory"
+        "12_Troll Warehouse"
       ],
       "requires": ""
     },
-    {
-      "name": "GF: TreasureChest Sandbag Hill (Path)",
-      "region": "GF",
+{
+      "name": "12_TWH_Gate Behind Puzzle Right Key",
+      "region": "Ch12 Life",
       "category": [
-        "13: Goo Factory"
+        "12_Troll Warehouse"
       ],
       "requires": ""
     },
-    {
-      "name": "GF: TreasureChest Twenty Stone Defence (Fire)",
-      "region": "GF",
+{
+      "name": "12_TWH_Gate Key Initial",
+      "region": "Ch12 Life",
       "category": [
-        "13: Goo Factory"
-      ],
-      "requires": "|@Fire|"
-    },
-    {
-      "name": "GF: Story Scroll",
-      "region": "GF",
-      "category": [
-        "13: Goo Factory"
+        "12_Troll Warehouse"
       ],
       "requires": ""
     },
-    {
-      "region": "BF",
-      "name": "BF: The Troll Tank",
+{
+      "name": "12_TWH_Gate Left KeyPen Lower",
+      "region": "Ch12 Life",
       "category": [
-        "14: Battlefield"
+        "12_Troll Warehouse"
       ],
-      "requires": "|Key (BF):3| OR (|Soulgem Ghost Roaster| AND {YamlEnabled(Ghost_Roaster_Launches)})",
+      "requires": ""
+    },
+{
+      "name": "12_TWH_Gate Left KeyPen Upper",
+      "region": "Ch12 Life",
+      "category": [
+        "12_Troll Warehouse"
+      ],
+      "requires": ""
+    },
+{
+      "name": "12_TWH_Gate Middle Key",
+      "region": "Ch12 Life",
+      "category": [
+        "12_Troll Warehouse"
+      ],
+      "requires": ""
+    },
+{
+      "name": "12_TWH_Gate Right KeyPen Lower",
+      "region": "Ch12 Life",
+      "category": [
+        "12_Troll Warehouse"
+      ],
+      "requires": ""
+    },
+{
+      "name": "12_TWH_Gate Right KeyPen Upper",
+      "region": "Ch12 Life",
+      "category": [
+        "12_Troll Warehouse"
+      ],
+      "requires": ""
+    },
+{
+      "name": "12_TWH_Hat LifeGate",
+      "region": "Ch12 Life",
+      "category": [
+        "12_Troll Warehouse"
+      ],
+      "requires": ""
+    },
+{
+      "name": "12_TWH_TreasureChest Isolation Cells",
+      "region": "Ch12 Life",
+      "category": [
+        "12_Troll Warehouse"
+      ],
+      "requires": ""
+    },
+{
+      "name": "13_GF_Hat AirGate",
+      "region": "Ch13 Air",
+      "category": [
+        "13_Goo Factory"
+      ],
+      "requires": ""
+    },
+{
+      "name": "13_GF_LegendaryTreasure",
+      "region": "Ch13 Air",
+      "category": [
+        "13_Goo Factory"
+      ],
+      "requires": ""
+    },
+{
+      "name": "13_GF_Hat FireGate",
+      "region": "Ch13 Fire",
+      "category": [
+        "13_Goo Factory"
+      ],
+      "requires": ""
+    },
+{
+      "name": "13_GF_TreasureChest Twenty Stone Defence",
+      "region": "Ch13 Fire",
+      "category": [
+        "13_Goo Factory"
+      ],
+      "requires": ""
+    },
+{
+      "name": "13_GF_Complete Level",
+      "region": "13_GF",
+      "category": [
+        "13_Goo Factory"
+      ],
+      "requires": ""
+    },
+{
+      "name": "13_GF_SoulGem Camo",
+      "region": "13_GF",
+      "category": [
+        "13_Goo Factory"
+      ],
+      "requires": ""
+    },
+{
+      "name": "13_GF_Story Scroll",
+      "region": "13_GF",
+      "category": [
+        "13_Goo Factory"
+      ],
+      "requires": ""
+    },
+{
+      "name": "13_GF_TreasureChest Sandbag Hill",
+      "region": "13_GF",
+      "category": [
+        "13_Goo Factory"
+      ],
+      "requires": ""
+    },
+{
+      "name": "13_GF_TreasureChest Western Trenches",
+      "region": "13_GF",
+      "category": [
+        "13_Goo Factory"
+      ],
+      "requires": ""
+    },
+{
+      "name": "14_BF_Key First Gate",
+      "region": "14_BF",
+      "category": [
+        "14_Battlefield"
+      ],
+      "requires": ""
+    },
+{
+      "name": "14_BF_LegendaryTreasure",
+      "region": "14_BF",
+      "category": [
+        "14_Battlefield"
+      ],
+      "requires": ""
+    },
+{
+      "name": "14_BF_SoulGem DrillSergeant ",
+      "region": "14_BF",
+      "category": [
+        "14_Battlefield"
+      ],
+      "requires": ""
+    },
+{
+      "name": "14_BF_StoryScroll",
+      "region": "14_BF",
+      "category": [
+        "14_Battlefield"
+      ],
+      "requires": ""
+    },
+{
+      "name": "14_BF_TreasureChest Defensive Perimeter ",
+      "region": "14_BF",
+      "category": [
+        "14_Battlefield"
+      ],
+      "requires": ""
+    },
+{
+      "name": "14_BF_Key Back ",
+      "region": "Ch14 Key1",
+      "category": [
+        "14_Battlefield"
+      ],
+      "requires": ""
+    },
+{
+      "name": "14_BF_Key Destructible Hut",
+      "region": "Ch14 Key1",
+      "category": [
+        "14_Battlefield"
+      ],
+      "requires": ""
+    },
+{
+      "name": "14_BF_Complete Level",
+      "region": "Ch14 Key3",
+      "category": [
+        "14_Battlefield"
+      ],
+      "requires": ""
+    },
+{
+      "name": "14_BF_SoulGem Drobot",
+      "region": "Ch14 Key3",
+      "category": [
+        "14_Battlefield"
+      ],
+      "requires": ""
+    },
+{
+      "name": "14_BF_The Troll Tank",
+      "region": "Ch14 Key3",
+      "category": [
+        "14_Battlefield"
+      ],
+      "requires": "",
       "place_item": [
         "Eternal Tech Source"
       ]
     },
-    {
-      "name": "BF: Key First Gate",
-      "region": "BF",
+{
+      "name": "14_BF_TreasureChest Tech Base Theta",
+      "region": "Ch14 Key3",
       "category": [
-        "14: Battlefield"
+        "14_Battlefield"
       ],
       "requires": ""
     },
-    {
-      "name": "BF: Key Back ",
-      "region": "BF",
+{
+      "name": "14_BF_Hat UndeadGate",
+      "region": "Ch14 Undead",
       "category": [
-        "14: Battlefield"
-      ],
-      "requires": "|Key (BF):1| OR (|Soulgem Ghost Roaster| AND {YamlEnabled(Ghost_Roaster_Launches)})"
-    },
-    {
-      "name": "BF: Key Destructible Hut",
-      "region": "BF",
-      "category": [
-        "14: Battlefield"
-      ],
-      "requires": "|Key (BF):1| OR (|Soulgem Ghost Roaster| AND {YamlEnabled(Ghost_Roaster_Launches)})"
-    },
-    {
-      "name": "BF: SoulGem DrillSergeant",
-      "region": "BF",
-      "category": [
-        "14: Battlefield"
+        "14_Battlefield"
       ],
       "requires": ""
     },
-    {
-      "name": "BF: SoulGem Drobot",
-      "region": "BF",
+{
+      "name": "14_BF_TreasureChest No Mans Land",
+      "region": "Ch14 Undead",
       "category": [
-        "14: Battlefield"
-      ],
-      "requires": "|Key (BF):3| OR (|Key (BF):2| AND |Soulgem Ghost Roaster| AND {YamlEnabled(Ghost_Roaster_Launches)})"
-    },
-    {
-      "name": "BF: LegendaryTreasure",
-      "region": "BF",
-      "category": [
-        "14: Battlefield"
+        "14_Battlefield"
       ],
       "requires": ""
     },
-    {
-      "name": "BF: Hat UndeadGate",
-      "region": "BF",
+{
+      "name": "15_CrCa_Key Bouncepad Staircase",
+      "region": "15_CrCa",
       "category": [
-        "14: Battlefield"
-      ],
-      "requires": "(|Key (BF):1| AND |@Undead|) OR (|Soulgem Ghost Roaster| AND {YamlEnabled(Ghost_Roaster_Launches)})"
-    },
-    {
-      "name": "BF: TreasureChest Defensive Perimeter (Off-Path)",
-      "region": "BF",
-      "category": [
-        "14: Battlefield"
+        "15_Crawling Catacombs"
       ],
       "requires": ""
     },
-    {
-      "name": "BF: TreasureChest No Mans Land (Undead)",
-      "region": "BF",
+{
+      "name": "15_CrCa_Key FatBelly Spider ",
+      "region": "15_CrCa",
       "category": [
-        "14: Battlefield"
-      ],
-      "requires": "(|Key (BF):1| AND |@Undead|) OR (|Soulgem Ghost Roaster| AND {YamlEnabled(Ghost_Roaster_Launches)})"
-    },
-    {
-      "name": "BF: TreasureChest Tech Base Theta (End)",
-      "region": "BF",
-      "category": [
-        "14: Battlefield"
-      ],
-      "requires": "|Key (BF):3| OR (|Soulgem Ghost Roaster| AND {YamlEnabled(Ghost_Roaster_Launches)})"
-    },
-    {
-      "name": "BF: StoryScroll",
-      "region": "BF",
-      "category": [
-        "14: Battlefield"
+        "15_Crawling Catacombs"
       ],
       "requires": ""
     },
-    {
-      "name": "CrCa: Complete Level",
-      "region": "CrCa",
+{
+      "name": "15_CrCa_Key Stolen",
+      "region": "15_CrCa",
       "category": [
-        "15: Crawling Catacombs"
-      ],
-      "requires": "|Key (CrCa):6| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)})"
-    },
-    {
-      "name": "CrCa: Key Bouncepad Staircase",
-      "region": "CrCa",
-      "category": [
-        "15: Crawling Catacombs"
+        "15_Crawling Catacombs"
       ],
       "requires": ""
     },
-    {
-      "name": "CrCa: Key Stolen",
-      "region": "CrCa",
+{
+      "name": "15_CrCa_SoulGem Spyro",
+      "region": "15_CrCa",
       "category": [
-        "15: Crawling Catacombs"
+        "15_Crawling Catacombs"
       ],
       "requires": ""
     },
-    {
-      "name": "CrCa: Key FatBelly Spider",
-      "region": "CrCa",
+{
+      "name": "15_CrCa_StoryScroll",
+      "region": "15_CrCa",
       "category": [
-        "15: Crawling Catacombs"
+        "15_Crawling Catacombs"
       ],
       "requires": ""
     },
-    {
-      "name": "CrCa: Key Gargantula",
-      "region": "CrCa",
+{
+      "name": "15_CrCa_Key Gargantula ",
+      "region": "Ch15 Key3",
       "category": [
-        "15: Crawling Catacombs"
-      ],
-      "requires": "|Key (CrCa):3| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})"
-    },
-    {
-      "region": "CrCa",
-      "name": "CrCa: Key Between Sawblades",
-      "category": [
-        "15: Crawling Catacombs"
-      ],
-      "requires": "|Key (CrCa):4| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)})"
-    },
-    {
-      "region": "CrCa",
-      "name": "CrCa: Key Final Bomb Wall",
-      "category": [
-        "15: Crawling Catacombs"
-      ],
-      "requires": "|Key (CrCa):4| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)})"
-    },
-    {
-      "name": "CrCa: SoulGem Spyro",
-      "region": "CrCa",
-      "category": [
-        "15: Crawling Catacombs"
+        "15_Crawling Catacombs"
       ],
       "requires": ""
     },
-    {
-      "name": "CrCa: LegendaryTreasure",
-      "region": "CrCa",
+{
+      "name": "15_CrCa_LegendaryTreasure",
+      "region": "Ch15 Key3",
       "category": [
-        "15: Crawling Catacombs"
-      ],
-      "requires": "|Key (CrCa):3| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})"
-    },
-    {
-      "name": "CrCa: Hat UndeadGate",
-      "region": "CrCa",
-      "category": [
-        "15: Crawling Catacombs"
-      ],
-      "requires": "(|Key (CrCa):3| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})) AND |@Undead|"
-    },
-    {
-      "name": "CrCa: TreasureChest Pit Of Webs Before Gargantula (Path)",
-      "region": "CrCa",
-      "category": [
-        "15: Crawling Catacombs"
-      ],
-      "requires": "|Key (CrCa):3| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})"
-    },
-    {
-      "name": "CrCa: TreasureChest Pit Of Webs After Gargantula (Path)",
-      "region": "CrCa",
-      "category": [
-        "15: Crawling Catacombs"
-      ],
-      "requires": "|Key (CrCa):4| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})"
-    },
-    {
-      "name": "CrCa: TreasureChest Oubliette (Off-Path)",
-      "region": "CrCa",
-      "category": [
-        "15: Crawling Catacombs"
-      ],
-      "requires": "|Key (CrCa):4| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)})"
-    },
-    {
-      "name": "CrCa: StoryScroll",
-      "region": "CrCa",
-      "category": [
-        "15: Crawling Catacombs"
+        "15_Crawling Catacombs"
       ],
       "requires": ""
     },
-    {
-      "name": "CaCr: Complete Level",
-      "region": "CaCr",
+{
+      "name": "15_CrCa_TreasureChest Pit Of Webs Before Gargantula",
+      "region": "Ch15 Key3",
       "category": [
-        "16: Cadaverous Crypt"
-      ],
-      "requires": "|Key (CaCr):1|"
-    },
-    {
-      "name": "CaCr: Key Ending Approach",
-      "region": "CaCr",
-      "category": [
-        "16: Cadaverous Crypt"
+        "15_Crawling Catacombs"
       ],
       "requires": ""
     },
-    {
-      "region": "CaCr",
+{
+      "name": "15_CrCa_Key Between Sawblades",
+      "region": "Ch15 Key4",
       "category": [
-        "16: Cadaverous Crypt"
+        "15_Crawling Catacombs"
       ],
-      "requires": "",
-      "name": "CaCr: SoulGem Hex"
+      "requires": ""
     },
-    {
-      "region": "CaCr",
+{
+      "name": "15_CrCa_Key Final Bomb Wall",
+      "region": "Ch15 Key4",
       "category": [
-        "16: Cadaverous Crypt"
+        "15_Crawling Catacombs"
       ],
-      "requires": "",
-      "name": "CaCr: SoulGem TriggerHappy"
+      "requires": ""
     },
-    {
-      "region": "CaCr",
+{
+      "name": "15_CrCa_TreasureChest Oubliette ",
+      "region": "Ch15 Key4",
       "category": [
-        "16: Cadaverous Crypt"
+        "15_Crawling Catacombs"
       ],
-      "requires": "",
-      "name": "CaCr: LegendaryTreasure"
+      "requires": ""
     },
-    {
-      "region": "CaCr",
+{
+      "name": "15_CrCa_TreasureChest Pit Of Webs After Gargantula",
+      "region": "Ch15 Key4",
       "category": [
-        "16: Cadaverous Crypt"
+        "15_Crawling Catacombs"
       ],
-      "requires": "|@Tech|",
-      "name": "CaCr: Hat TechGate"
+      "requires": ""
     },
-    {
-      "region": "CaCr",
+{
+      "name": "15_CrCa_Complete Level",
+      "region": "Ch15 Key6",
       "category": [
-        "16: Cadaverous Crypt"
+        "15_Crawling Catacombs"
       ],
-      "requires": "|@Earth|",
-      "name": "CaCr: Hat EarthGate"
+      "requires": ""
     },
-    {
-      "region": "CaCr",
+{
+      "name": "15_CrCa_Hat UndeadGate",
+      "region": "Ch15 Undead",
       "category": [
-        "16: Cadaverous Crypt"
+        "15_Crawling Catacombs"
       ],
-      "requires": "",
-      "name": "CaCr: TreasureChest Catacombs (Path)"
+      "requires": ""
     },
-    {
-      "region": "CaCr",
+{
+      "name": "16_CaCr_Hat EarthGate",
+      "region": "Ch16 Earth",
       "category": [
-        "16: Cadaverous Crypt"
+        "16_Cadaverous Crypt"
       ],
-      "requires": "|@Tech|",
-      "name": "CaCr: TreasureChest Maze of Skulls (Tech)"
+      "requires": ""
     },
-    {
-      "region": "CaCr",
+{
+      "name": "16_CaCr_Complete Level",
+      "region": "Ch16 End",
       "category": [
-        "16: Cadaverous Crypt"
+        "16_Cadaverous Crypt"
       ],
-      "requires": "|Key (CaCr):1|",
-      "name": "CaCr: TreasureChest Evershifting Halls (After Key)"
+      "requires": ""
     },
-    {
-      "region": "CaCr",
+{
+      "name": "16_CaCr_Key Ending Approach",
+      "region": "16_CaCr",
       "category": [
-        "16: Cadaverous Crypt"
+        "16_Cadaverous Crypt"
       ],
-      "requires": "",
-      "name": "CaCr: StoryScroll"
+      "requires": ""
     },
-    {
-      "region": "CrCi",
-      "name": "CrCi: Kaos in the Underworld",
+{
+      "name": "16_CaCr_LegendaryTreasure",
+      "region": "16_CaCr",
       "category": [
-        "17: Creepy Citadel"
+        "16_Cadaverous Crypt"
+      ],
+      "requires": ""
+    },
+{
+      "name": "16_CaCr_SoulGem Hex",
+      "region": "16_CaCr",
+      "category": [
+        "16_Cadaverous Crypt"
+      ],
+      "requires": ""
+    },
+{
+      "name": "16_CaCr_SoulGem TriggerHappy",
+      "region": "16_CaCr",
+      "category": [
+        "16_Cadaverous Crypt"
+      ],
+      "requires": ""
+    },
+{
+      "name": "16_CaCr_StoryScroll",
+      "region": "16_CaCr",
+      "category": [
+        "16_Cadaverous Crypt"
+      ],
+      "requires": ""
+    },
+{
+      "name": "16_CaCr_TreasureChest Evershifting Halls",
+      "region": "16_CaCr",
+      "category": [
+        "16_Cadaverous Crypt"
+      ],
+      "requires": ""
+    },
+{
+      "name": "16_CaCr_TreasureChest Catacombs",
+      "region": "Ch16 Key1",
+      "category": [
+        "16_Cadaverous Crypt"
+      ],
+      "requires": ""
+    },
+{
+      "name": "16_CaCr_TreasureChest Maze of Skulls",
+      "region": "Ch16 Tech",
+      "category": [
+        "16_Cadaverous Crypt"
+      ],
+      "requires": ""
+    },
+{
+      "name": "16_CaCr_Hat TechGate",
+      "region": "Ch16 Tech",
+      "category": [
+        "16_Cadaverous Crypt"
+      ],
+      "requires": ""
+    },
+{
+      "name": "17_CrCi_Hat AirGate",
+      "region": "Ch17 Air",
+      "category": [
+        "17_Creepy Citadel"
+      ],
+      "requires": ""
+    },
+{
+      "name": "17_CrCi_TreasureChest Tomb of Stones",
+      "region": "Ch17 Air",
+      "category": [
+        "17_Creepy Citadel"
+      ],
+      "requires": ""
+    },
+{
+      "name": "17_CrCi_Complete Level",
+      "region": "17_CrCi",
+      "category": [
+        "17_Creepy Citadel"
+      ],
+      "requires": "(|@Skylanders:3| OR {YamlDisabled(Kaos_Fights_Require_3_Skylanders)})"
+    },
+{
+      "name": "17_CrCi_Kaos in the Underworld",
+      "region": "17_CrCi",
+      "category": [
+        "17_Creepy Citadel"
       ],
       "requires": "(|@Skylanders:3| OR {YamlDisabled(Kaos_Fights_Require_3_Skylanders)})",
       "place_item": [
         "Eternal Undead Source"
       ]
     },
-    {
-      "name": "CrCi: SoulGem Whirlwind",
-      "region": "CrCi",
+{
+      "name": "17_CrCi_LegendaryTreasure",
+      "region": "17_CrCi",
       "category": [
-        "17: Creepy Citadel"
+        "17_Creepy Citadel"
       ],
       "requires": ""
     },
-    {
-      "name": "CrCi: LegendaryTreasure",
-      "region": "CrCi",
+{
+      "name": "17_CrCi_SoulGem Whirlwind",
+      "region": "17_CrCi",
       "category": [
-        "17: Creepy Citadel"
+        "17_Creepy Citadel"
       ],
       "requires": ""
     },
-    {
-      "name": "CrCi: Hat AirGate",
-      "region": "CrCi",
+{
+      "name": "17_CrCi_StoryScroll",
+      "region": "17_CrCi",
       "category": [
-        "17: Creepy Citadel"
-      ],
-      "requires": "|@Air|"
-    },
-    {
-      "name": "CrCi: TreasureChest Skeleton Gate (Off-Path)",
-      "region": "CrCi",
-      "category": [
-        "17: Creepy Citadel"
+        "17_Creepy Citadel"
       ],
       "requires": ""
     },
-    {
-      "name": "CrCi: TreasureChest Tomb of Stones (Air)",
-      "region": "CrCi",
+{
+      "name": "17_CrCi_TreasureChest Gallery",
+      "region": "17_CrCi",
       "category": [
-        "17: Creepy Citadel"
-      ],
-      "requires": "|@Air|"
-    },
-    {
-      "name": "CrCi: TreasureChest Gallery (Path)",
-      "region": "CrCi",
-      "category": [
-        "17: Creepy Citadel"
+        "17_Creepy Citadel"
       ],
       "requires": ""
     },
-    {
-      "name": "CrCi: StoryScroll",
-      "region": "CrCi",
+{
+      "name": "17_CrCi_TreasureChest Skeleton Gate",
+      "region": "17_CrCi",
       "category": [
-        "17: Creepy Citadel"
+        "17_Creepy Citadel"
       ],
       "requires": ""
     },
-    {
-      "name": "MM: Complete Level",
-      "region": "MM",
+{
+      "name": "18_MM_Complete Level",
+      "region": "18_MM",
       "category": [
-        "18: Molekin Mine"
+        "18_Molekin Mine"
       ],
       "requires": ""
     },
-    {
-      "name": "MM: Key Stolen",
-      "region": "MM",
+{
+      "name": "18_MM_Key Stolen",
+      "region": "18_MM",
       "category": [
-        "18: Molekin Mine"
+        "18_Molekin Mine"
       ],
       "requires": ""
     },
-    {
-      "name": "MM: SoulGem Flameslinger",
-      "region": "MM",
+{
+      "name": "18_MM_LegendaryTreasure",
+      "region": "18_MM",
       "category": [
-        "18: Molekin Mine"
+        "18_Molekin Mine"
       ],
-      "requires": "|Key (MM)| OR |Soulgem Prism Break|"
+      "requires": ""
     },
-    {
-      "name": "MM: SoulGem Cynder",
-      "region": "MM",
+{
+      "name": "18_MM_SoulGem Cynder",
+      "region": "18_MM",
       "category": [
-        "18: Molekin Mine"
+        "18_Molekin Mine"
       ],
       "requires": "|@Water| OR |@Flight|"
     },
-    {
-      "name": "MM: LegendaryTreasure",
-      "region": "MM",
+{
+      "name": "18_MM_StoryScroll",
+      "region": "18_MM",
       "category": [
-        "18: Molekin Mine"
+        "18_Molekin Mine"
       ],
       "requires": ""
     },
-    {
-      "name": "MM: Hat TechGate",
-      "region": "MM",
+{
+      "name": "18_MM_TreasureChest Underground Lake Ledge",
+      "region": "18_MM",
       "category": [
-        "18: Molekin Mine"
+        "18_Molekin Mine"
       ],
-      "requires": "|@Tech|"
+      "requires": "(|@Water| OR |@Flight|) AND ((|Key (18_MM)| AND ((|@Water| OR |@Flight|) AND |@Speed19|)) OR |Soulgem Prism Break|)"
     },
-    {
-      "name": "MM: TreasureChest Crystal Grove (Off-Path)",
-      "region": "MM",
+{
+      "name": "18_MM_Hat TechGate",
+      "region": "Ch18 Tech",
       "category": [
-        "18: Molekin Mine"
-      ],
-      "requires": "|Key (MM)| OR |Soulgem Prism Break|"
-    },
-    {
-      "name": "MM: TreasureChest Underground Lake Ledge (Off-Path)",
-      "region": "MM",
-      "category": [
-        "18: Molekin Mine"
+        "18_Molekin Mine"
       ],
       "requires": ""
     },
-    {
-      "name": "MM: TreasureChest Underground Lake Tzo (Off-Path)",
-      "region": "MM",
+{
+      "name": "18_MM_SoulGem Flameslinger",
+      "region": "Ch18 Tzo",
       "category": [
-        "18: Molekin Mine"
-      ],
-      "requires": "(|@Water| OR |@Flight|) AND ((|Key (MM)| AND ((|@Water| OR |@Flight|) AND |@Speed19|)) OR |Soulgem Prism Break|)"
-    },
-    {
-      "name": "MM: StoryScroll",
-      "region": "MM",
-      "category": [
-        "18: Molekin Mine"
+        "18_Molekin Mine"
       ],
       "requires": ""
     },
-    {
-      "name": "LLR: Kaos in the Cavern",
-      "region": "LLR",
+{
+      "name": "18_MM_TreasureChest Crystal Grove",
+      "region": "Ch18 Tzo",
       "category": [
-        "19: Lava Lakes Railway"
+        "18_Molekin Mine"
+      ],
+      "requires": "|Key (18_MM)| OR |Soulgem Prism Break|"
+    },
+{
+      "name": "18_MM_TreasureChest Underground Lake Tzo ",
+      "region": "Ch18 Tzo",
+      "category": [
+        "18_Molekin Mine"
+      ],
+      "requires": ""
+    },
+{
+      "name": "19_LLR_Hat FireGate",
+      "region": "Ch19 Fire",
+      "category": [
+        "19_Lava Lakes Railway"
+      ],
+      "requires": ""
+    },
+{
+      "name": "19_LLR_TreasureChest Fiery Depths",
+      "region": "Ch19 Fire",
+      "category": [
+        "19_Lava Lakes Railway"
+      ],
+      "requires": ""
+    },
+{
+      "name": "19_LLR_Complete Level",
+      "region": "19_LLR",
+      "category": [
+        "19_Lava Lakes Railway"
+      ],
+      "requires": "(|@Skylanders:3| OR {YamlDisabled(Kaos_Fights_Require_3_Skylanders)})"
+    },
+{
+      "name": "19_LLR_Kaos in the Cavern",
+      "region": "19_LLR",
+      "category": [
+        "19_Lava Lakes Railway"
       ],
       "requires": "(|@Skylanders:3| OR {YamlDisabled(Kaos_Fights_Require_3_Skylanders)})",
       "place_item": [
         "Eternal Fire Source"
       ]
     },
-    {
-      "name": "LLR: SoulGem Eruptor",
-      "region": "LLR",
+{
+      "name": "19_LLR_LegendaryTreasure",
+      "region": "19_LLR",
       "category": [
-        "19: Lava Lakes Railway"
+        "19_Lava Lakes Railway"
       ],
       "requires": ""
     },
-    {
-      "name": "LLR: LegendaryTreasure",
-      "region": "LLR",
+{
+      "name": "19_LLR_SoulGem Eruptor",
+      "region": "19_LLR",
       "category": [
-        "19: Lava Lakes Railway"
+        "19_Lava Lakes Railway"
       ],
       "requires": "|@Speed19|"
     },
-    {
-      "region": "LLR",
-      "name": "LLR: Hat FireGate",
+{
+      "name": "19_LLR_StoryScroll",
+      "region": "19_LLR",
       "category": [
-        "19: Lava Lakes Railway"
-      ],
-      "requires": "|@Fire|"
-    },
-    {
-      "name": "LLR: TreasureChest Scarlet Delve (Off-Path)",
-      "region": "LLR",
-      "category": [
-        "19: Lava Lakes Railway"
+        "19_Lava Lakes Railway"
       ],
       "requires": ""
     },
-    {
-      "name": "LLR: TreasureChest Crystal Grottos (Path)",
-      "region": "LLR",
+{
+      "name": "19_LLR_TreasureChest Crystal Grottos",
+      "region": "19_LLR",
       "category": [
-        "19: Lava Lakes Railway"
+        "19_Lava Lakes Railway"
       ],
       "requires": ""
     },
-    {
-      "name": "LLR: TreasureChest Fiery Depths (Fire)",
-      "region": "LLR",
+{
+      "name": "19_LLR_TreasureChest Scarlet Delve",
+      "region": "19_LLR",
       "category": [
-        "19: Lava Lakes Railway"
-      ],
-      "requires": "|@Fire|"
-    },
-    {
-      "name": "LLR: StoryScroll",
-      "region": "LLR",
-      "category": [
-        "19: Lava Lakes Railway"
+        "19_Lava Lakes Railway"
       ],
       "requires": ""
     },
-    {
-      "region": "QSV",
-      "name": "QSV: CompleteLevel",
+{
+      "name": "20_QSV_Key Side Path",
+      "region": "20_QSV",
       "category": [
-        "20: Quicksilver Vault"
-      ],
-      "requires": "|Key (QSV):3|"
-    },
-    {
-      "name": "QSV: Key Side Path",
-      "region": "QSV",
-      "category": [
-        "20: Quicksilver Vault"
+        "20_Quicksilver Vault"
       ],
       "requires": ""
     },
-    {
-      "name": "QSV: Key Islands",
-      "region": "QSV",
+{
+      "name": "20_QSV_TreasureChest Well of Sorcery Puzzle 1",
+      "region": "20_QSV",
       "category": [
-        "20: Quicksilver Vault"
-      ],
-      "requires": "|Key (QSV):1|"
-    },
-    {
-      "name": "QSV: SoulGem WreckingBall",
-      "region": "QSV",
-      "category": [
-        "20: Quicksilver Vault"
-      ],
-      "requires": "|Key (QSV):1|"
-    },
-    {
-      "name": "QSV: LegendaryTreasure",
-      "region": "QSV",
-      "category": [
-        "20: Quicksilver Vault"
-      ],
-      "requires": "|Key (QSV):1| AND |@Life|"
-    },
-    {
-      "name": "QSV: Hat LifeGate",
-      "region": "QSV",
-      "category": [
-        "20: Quicksilver Vault"
-      ],
-      "requires": "|Key (QSV):1| AND |@Life|"
-    },
-    {
-      "name": "QSV: TreasureChest Well of Sorcery Puzzle 1 (Path)",
-      "region": "QSV",
-      "category": [
-        "20: Quicksilver Vault"
+        "20_Quicksilver Vault"
       ],
       "requires": ""
     },
-    {
-      "name": "QSV: TreasureChest Well of Sorcery Puzzle 2 (Path)",
-      "region": "QSV",
+{
+      "name": "20_QSV_Key Islands",
+      "region": "Ch20 Key1",
       "category": [
-        "20: Quicksilver Vault"
+        "20_Quicksilver Vault"
       ],
-      "requires": "|Key (QSV):1|"
+      "requires": ""
     },
-    {
-      "name": "QSV: TreasureChest Enchanted Islands (Path)",
-      "region": "QSV",
+{
+      "name": "20_QSV_SoulGem WreckingBall",
+      "region": "Ch20 Key1",
       "category": [
-        "20: Quicksilver Vault"
+        "20_Quicksilver Vault"
       ],
-      "requires": "|Key (QSV):1|"
+      "requires": ""
     },
-    {
-      "name": "QSV: StoryScroll",
-      "region": "QSV",
+{
+      "name": "20_QSV_TreasureChest Enchanted Islands",
+      "region": "Ch20 Key1",
       "category": [
-        "20: Quicksilver Vault"
+        "20_Quicksilver Vault"
       ],
-      "requires": "|Key (QSV):2|"
+      "requires": ""
     },
-    {
-      "name": "AA: Fight in the Vault",
-      "region": "AA",
+{
+      "name": "20_QSV_TreasureChest Well of Sorcery Puzzle 2",
+      "region": "Ch20 Key1",
       "category": [
-        "21: Arkeyan Armory"
+        "20_Quicksilver Vault"
       ],
-      "requires": "(|@Earth| OR |Soulgem Drill Sergeant|) AND |@Air|",
+      "requires": ""
+    },
+{
+      "name": "20_QSV_Key After Puzzles",
+      "region": "Ch20 Key2",
+      "category": [
+        "20_Quicksilver Vault"
+      ],
+      "requires": ""
+    },
+{
+      "name": "20_QSV_StoryScroll",
+      "region": "Ch20 Key2",
+      "category": [
+        "20_Quicksilver Vault"
+      ],
+      "requires": ""
+    },
+{
+      "name": "20_QSV_CompleteLevel",
+      "region": "Ch20 Key3",
+      "category": [
+        "20_Quicksilver Vault"
+      ],
+      "requires": ""
+    },
+{
+      "name": "20_QSV_Hat LifeGate",
+      "region": "Ch20 Life",
+      "category": [
+        "20_Quicksilver Vault"
+      ],
+      "requires": ""
+    },
+{
+      "name": "20_QSV_LegendaryTreasure",
+      "region": "Ch20 Life",
+      "category": [
+        "20_Quicksilver Vault"
+      ],
+      "requires": ""
+    },
+{
+      "name": "21_AA_Hat AirGate",
+      "region": "Ch21 Air",
+      "category": [
+        "21_Arkeyan Armory"
+      ],
+      "requires": ""
+    },
+{
+      "name": "21_AA_TreasureChest Pandoran Gift Shop",
+      "region": "Ch21 Air",
+      "category": [
+        "21_Arkeyan Armory"
+      ],
+      "requires": ""
+    },
+{
+      "name": "21_AA_Complete Level",
+      "region": "21_AA",
+      "category": [
+        "21_Arkeyan Armory"
+      ],
+      "requires": ""
+    },
+{
+      "name": "21_AA_Fight in the Vault",
+      "region": "21_AA",
+      "category": [
+        "21_Arkeyan Armory"
+      ],
+      "requires": "",
       "place_item": [
         "Eternal Magic Source"
       ]
     },
-    {
-      "name": "AA: SoulGem Voodood",
-      "region": "AA",
+{
+      "name": "21_AA_LegendaryTreasure",
+      "region": "21_AA",
       "category": [
-        "21: Arkeyan Armory"
+        "21_Arkeyan Armory"
       ],
-      "requires": "(|@Earth| OR |Soulgem Drill Sergeant|) AND |@Air|"
+      "requires": "(|@Earth| OR |Soulgem Drill Sergeant|)"
     },
-    {
-      "name": "AA: LegendaryTreasure",
-      "region": "AA",
+{
+      "name": "21_AA_SoulGem Voodood",
+      "region": "21_AA",
       "category": [
-        "21: Arkeyan Armory"
-      ],
-      "requires": "(|@Earth| OR |Soulgem Drill Sergeant|) AND |@Air|"
-    },
-    {
-      "name": "AA: Hat AirGate",
-      "region": "AA",
-      "category": [
-        "21: Arkeyan Armory"
-      ],
-      "requires": "(|@Earth| OR |Soulgem Drill Sergeant|) AND |@Air|"
-    },
-    {
-      "region": "AA",
-      "name": "AA: TreasureChest Unyeilding Garrison (Before Mech)",
-      "category": [
-        "21: Arkeyan Armory"
+        "21_Arkeyan Armory"
       ],
       "requires": ""
     },
-    {
-      "name": "AA: TreasureChest Cruicible (Off-Path)",
-      "region": "AA",
+{
+      "name": "21_AA_StoryScroll",
+      "region": "21_AA",
       "category": [
-        "21: Arkeyan Armory"
-      ],
-      "requires": "(|@Earth| OR |Soulgem Drill Sergeant|) AND |@Air|"
-    },
-    {
-      "name": "AA: TreasureChest Pandoran Gift Shop (Air)",
-      "region": "AA",
-      "category": [
-        "21: Arkeyan Armory"
-      ],
-      "requires": "(|@Earth| OR |Soulgem Drill Sergeant|) AND |@Air|"
-    },
-    {
-      "name": "AA: StoryScroll",
-      "region": "AA",
-      "category": [
-        "21: Arkeyan Armory"
+        "21_Arkeyan Armory"
       ],
       "requires": ""
     },
-    {
-      "name": "LOK: Complete Level",
-      "region": "LOK",
+{
+      "name": "21_AA_TreasureChest Cruicible",
+      "region": "21_AA",
       "category": [
-        "22: Lair of Kaos"
-      ],
-      "requires": "|Key (LOK):4| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)})"
-    },
-    {
-      "name": "LOK: Key Start",
-      "region": "LOK",
-      "category": [
-        "22: Lair of Kaos"
+        "21_Arkeyan Armory"
       ],
       "requires": ""
     },
-    {
-      "name": "LOK: Key Central Point",
-      "region": "LOK",
+{
+      "name": "21_AA_TreasureChest Unyeilding Garrison ",
+      "region": "21_AA",
       "category": [
-        "22: Lair of Kaos"
+        "21_Arkeyan Armory"
       ],
-      "requires": "|Key (LOK):1| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)})"
+      "requires": ""
     },
-    {
-      "name": "LOK: Key Left Path",
-      "region": "LOK",
+{
+      "name": "22_LOK_Key Start",
+      "region": "22_LOK",
       "category": [
-        "22: Lair of Kaos"
+        "22_Lair of Kaos"
       ],
-      "requires": "|Key (LOK):1| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)})"
+      "requires": ""
     },
-    {
-      "region": "LOK",
-      "name": "LOK: Key Right Path",
+{
+      "name": "22_LOK_Key Central Point",
+      "region": "Ch22 Key1",
       "category": [
-        "22: Lair of Kaos"
+        "22_Lair of Kaos"
       ],
-      "requires": "|Key (LOK):1| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)})"
+      "requires": ""
     },
-    {
-      "name": "LOK: SoulGem DoubleTrouble",
-      "region": "LOK",
+{
+      "name": "22_LOK_Key Left Path",
+      "region": "Ch22 Key1",
       "category": [
-        "22: Lair of Kaos"
+        "22_Lair of Kaos"
       ],
-      "requires": "|Key (LOK):1| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)})"
+      "requires": ""
     },
-    {
-      "name": "LOK: LegendaryTreasure",
-      "region": "LOK",
+{
+      "name": "22_LOK_Key Right Path",
+      "region": "Ch22 Key1",
       "category": [
-        "22: Lair of Kaos"
+        "22_Lair of Kaos"
       ],
-      "requires": "|Key (LOK):1| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)})"
+      "requires": ""
     },
-    {
-      "name": "LOK: Hat MagicGate",
-      "region": "LOK",
+{
+      "name": "22_LOK_LegendaryTreasure",
+      "region": "Ch22 Key1",
       "category": [
-        "22: Lair of Kaos"
+        "22_Lair of Kaos"
       ],
-      "requires": "(|Key (LOK):1| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)})) AND |@Magic|"
+      "requires": ""
     },
-    {
-      "name": "LOK: TreasureChest Alternate Ends (Magic)",
-      "region": "LOK",
+{
+      "name": "22_LOK_SoulGem DoubleTrouble",
+      "region": "Ch22 Key1",
       "category": [
-        "22: Lair of Kaos"
+        "22_Lair of Kaos"
       ],
-      "requires": "(|Key (LOK):1| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)})) AND |@Magic|"
+      "requires": ""
     },
-    {
-      "name": "LOK: TreasureChest Farthest Reach (Left)",
-      "region": "LOK",
+{
+      "name": "22_LOK_StoryScroll",
+      "region": "Ch22 Key1",
       "category": [
-        "22: Lair of Kaos"
+        "22_Lair of Kaos"
       ],
-      "requires": "|Key (LOK):1| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)})"
+      "requires": ""
     },
-    {
-      "name": "LOK: TreasureChest Forlorn Islands (Right)",
-      "region": "LOK",
+{
+      "name": "22_LOK_TreasureChest Farthest Reach",
+      "region": "Ch22 Key1",
       "category": [
-        "22: Lair of Kaos"
+        "22_Lair of Kaos"
       ],
-      "requires": "|Key (LOK):1| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)})"
+      "requires": ""
     },
-    {
-      "name": "LOK: StoryScroll",
-      "region": "LOK",
+{
+      "name": "22_LOK_TreasureChest Forlorn Islands",
+      "region": "Ch22 Key1",
       "category": [
-        "22: Lair of Kaos"
+        "22_Lair of Kaos"
       ],
-      "requires": "|Key (LOK):1| OR (|Soulgem Warnado| AND {YamlEnabled(Core_Warnado_Jumps)})"
+      "requires": ""
     },
+{
+      "name": "22_LOK_Complete Level",
+      "region": "Ch22 Key4",
+      "category": [
+        "22_Lair of Kaos"
+      ],
+      "requires": ""
+    },
+{
+      "name": "22_LOK_Defeat Kaos",
+      "victory": true,
+      "region": "Ch22 Key4",
+      "category": [
+        "22_Lair of Kaos"
+      ],
+      "requires": "|@Eternal Source:8| AND |@Core:5| AND (|@Skylanders:3| OR {YamlDisabled(Kaos_Fights_Require_3_Skylanders)})"
+    },
+{
+      "name": "22_LOK_Hat MagicGate",
+      "region": "Ch22 Magic",
+      "category": [
+        "22_Lair of Kaos"
+      ],
+      "requires": ""
+    },
+{
+      "name": "22_LOK_TreasureChest Alternate Ends",
+      "region": "Ch22 Magic",
+      "category": [
+        "22_Lair of Kaos"
+      ],
+      "requires": ""
+    },
+
+
+
+
+
+
+
+
+
+
+
+
     {
       "name": "EOI: Complete Level",
-      "region": "EOI",
+      "region": "23_EOI",
       "category": [
-        "23: Empire of Ice",
+        "23_Empire of Ice",
         "AdventurePack"
       ],
-      "requires": "|Key (EOI):1| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})"
+      "requires": "|Key (23_EOI):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
     },
     {
       "name": "EOI: Key Before Catapult",
-      "region": "EOI",
+      "region": "23_EOI",
       "category": [
-        "23: Empire of Ice",
+        "23_Empire of Ice",
         "AdventurePack"
       ],
       "requires": ""
     },
     {
       "name": "EOI: SoulGem SlamBam",
-      "region": "EOI",
+      "region": "23_EOI",
       "category": [
-        "23: Empire of Ice",
+        "23_Empire of Ice",
         "AdventurePack"
       ],
       "requires": ""
     },
     {
       "name": "EOI: LegenaryTreasure",
-      "region": "EOI",
+      "region": "23_EOI",
       "category": [
-        "23: Empire of Ice",
+        "23_Empire of Ice",
         "AdventurePack"
       ],
-      "requires": "(|Key (EOI):1| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})) AND |@Speed9|"
+      "requires": "(|Key (23_EOI):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})) AND |@Speed9|"
     },
     {
       "name": "EOI: Hat UndeadGate",
-      "region": "EOI",
+      "region": "23_EOI",
       "category": [
-        "23: Empire of Ice",
+        "23_Empire of Ice",
         "AdventurePack"
       ],
       "requires": "|@Undead|"
@@ -1986,80 +2070,71 @@
     {
       "name": "EOI: Hat Open",
       "category": [
-        "23: Empire of Ice",
+        "23_Empire of Ice",
         "AdventurePack"
       ],
-      "requires": "|Key (EOI):1| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})",
-      "region": "EOI"
+      "requires": "|Key (23_EOI):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})",
+      "region": "23_EOI"
     },
     {
       "category": [
-        "23: Empire of Ice",
+        "23_Empire of Ice",
         "AdventurePack"
       ],
       "requires": "",
-      "region": "EOI",
+      "region": "23_EOI",
       "name": "EOI: TreasureChest Maze of Obelisks (Off-Path)"
     },
     {
       "category": [
-        "23: Empire of Ice",
+        "23_Empire of Ice",
         "AdventurePack"
       ],
       "requires": "",
-      "region": "EOI",
+      "region": "23_EOI",
       "name": "EOI: TreasureChest Altar of Eyes (Path)"
     },
     {
       "name": "EOI: TreasureChest Winter Wall (Path)",
       "category": [
-        "23: Empire of Ice",
+        "23_Empire of Ice",
         "AdventurePack"
       ],
-      "requires": "|Key (EOI):1| OR (|Soulgem Warnado| AND {YamlEnabled(Obscure_Warnado_Jumps)})",
-      "region": "EOI"
+      "requires": "|Key (23_EOI):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})",
+      "region": "23_EOI"
     },
     {
-      "category": [
-        "23: Empire of Ice",
-        "AdventurePack"
-      ],
-      "requires": "",
-      "name": "EOI: StoryScroll",
-      "region": "EOI"
-    },
-    {
-      "region": "PS",
+      "region": "24_PS",
       "name": "PS: Complete Level",
       "category": [
-        "24: Pirate Seas",
+        "24_Pirate Seas",
         "AdventurePack"
       ],
       "requires": ""
     },
     {
       "name": "PS: Key Life Gate",
-      "region": "PS",
+      "region": "24_PS",
       "category": [
-        "24: Pirate Seas",
+        "24_Pirate Seas",
         "AdventurePack"
       ],
       "requires": "|@Life|"
     },
     {
       "name": "PS: SoulGem Terrafin ",
-      "region": "PS",
+      "region": "24_PS",
       "category": [
-        "24: Pirate Seas",
+        "24_Pirate Seas",
         "AdventurePack"
       ],
       "requires": ""
     },
     {
       "name": "PS: LegendaryTreasure",
-      "region": "PS",
+      "region": "24_PS",
       "category": [
-        "24: Pirate Seas",
+        "24_Pirate Seas",
         "AdventurePack"
       ],
       "requires": ""
@@ -2067,345 +2142,273 @@
     {
       "name": "PS: Hat LifeGate",
       "category": [
-        "24: Pirate Seas",
+        "24_Pirate Seas",
         "AdventurePack"
       ],
-      "requires": "|@Life| AND |Key (PS):1| ",
-      "region": "PS"
+      "requires": "|@Life| AND |Key (24_PS):1| ",
+      "region": "24_PS"
     },
     {
       "name": "PS: Hat Open",
-      "region": "PS",
+      "region": "24_PS",
       "category": [
-        "24: Pirate Seas",
+        "24_Pirate Seas",
         "AdventurePack"
       ],
       "requires": ""
     },
     {
       "name": "PS: TreasureChest Shipwrights Square by Gate (Off-Path)",
-      "region": "PS",
+      "region": "24_PS",
       "category": [
-        "24: Pirate Seas",
+        "24_Pirate Seas",
         "AdventurePack"
       ],
       "requires": ""
     },
     {
       "name": "PS: TreasureChest Shipwrights Square Upper Mound (Off-Path)",
-      "region": "PS",
+      "region": "24_PS",
       "category": [
-        "24: Pirate Seas",
+        "24_Pirate Seas",
         "AdventurePack"
       ],
       "requires": ""
     },
     {
       "name": "PS: TreasureChest Coconut Islands (Off-Path)",
-      "region": "PS",
+      "region": "24_PS",
       "category": [
-        "24: Pirate Seas",
+        "24_Pirate Seas",
         "AdventurePack"
       ],
       "requires": "|@Water| OR |@Flight|"
     },
     {
       "name": "PS: StoryScroll",
-      "region": "PS",
+      "region": "24_PS",
       "category": [
-        "24: Pirate Seas",
+        "24_Pirate Seas",
         "AdventurePack"
       ],
       "requires": ""
     },
     {
       "name": "DLC: Complete Level",
-      "region": "DLC",
+      "region": "25_DLC",
       "category": [
-        "25: Darklight Crypt",
+        "25_Darklight Crypt",
         "AdventurePack"
       ],
-      "requires": "|Key (DLC):5| AND |@Fire|"
+      "requires": "|Key (25_DLC):5| AND |@Fire|"
     },
     {
-      "region": "DLC",
+      "region": "25_DLC",
       "name": "DLC: Key By Fire Gate",
       "category": [
-        "25: Darklight Crypt",
+        "25_Darklight Crypt",
         "AdventurePack"
       ],
-      "requires": "|Key (DLC):1| "
+      "requires": "|Key (25_DLC):1| "
     },
     {
-      "region": "DLC",
+      "region": "25_DLC",
       "name": "DLC: Key Maze First Gate",
       "category": [
-        "25: Darklight Crypt",
+        "25_Darklight Crypt",
         "AdventurePack"
       ],
-      "requires": "|Key (DLC):1| "
+      "requires": "|Key (25_DLC):1| "
     },
     {
-      "region": "DLC",
+      "region": "25_DLC",
       "name": "DLC: Key Maze Triple Gate Left",
       "category": [
-        "25: Darklight Crypt",
+        "25_Darklight Crypt",
         "AdventurePack"
       ],
-      "requires": "|Key (DLC):5| AND |@Fire|"
+      "requires": "|Key (25_DLC):5| AND |@Fire|"
     },
     {
-      "region": "DLC",
+      "region": "25_DLC",
       "name": "DLC: Key Maze Triple Gate Centre",
       "category": [
-        "25: Darklight Crypt",
+        "25_Darklight Crypt",
         "AdventurePack"
       ],
-      "requires": "|Key (DLC):5| AND |@Fire|"
+      "requires": "|Key (25_DLC):5| AND |@Fire|"
     },
     {
-      "region": "DLC",
+      "region": "25_DLC",
       "name": "DLC: Key Maze Triple Gate Right",
       "category": [
-        "25: Darklight Crypt",
+        "25_Darklight Crypt",
         "AdventurePack"
       ],
-      "requires": "|Key (DLC):5| AND |@Fire|"
+      "requires": "|Key (25_DLC):5| AND |@Fire|"
     },
     {
-      "region": "DLC",
+      "region": "25_DLC",
       "name": "DLC: SoulGem GhostRoaster",
       "category": [
-        "25: Darklight Crypt",
+        "25_Darklight Crypt",
         "AdventurePack"
       ],
-      "requires": "|Key (DLC):1| "
+      "requires": "|Key (25_DLC):1| "
     },
     {
-      "region": "DLC",
+      "region": "25_DLC",
       "name": "DLC: LegendaryTreasure",
       "category": [
-        "25: Darklight Crypt",
+        "25_Darklight Crypt",
         "AdventurePack"
       ],
-      "requires": "|Key (DLC):1| "
+      "requires": "|Key (25_DLC):1| "
     },
     {
-      "region": "DLC",
+      "region": "25_DLC",
       "name": "DLC: Hat FireGate",
       "category": [
-        "25: Darklight Crypt",
+        "25_Darklight Crypt",
         "AdventurePack"
       ],
-      "requires": "|Key (DLC):5| AND |@Fire|"
+      "requires": "|Key (25_DLC):5| AND |@Fire|"
     },
     {
-      "region": "DLC",
+      "region": "25_DLC",
       "name": "DLC: Hat Open",
       "category": [
-        "25: Darklight Crypt",
+        "25_Darklight Crypt",
         "AdventurePack"
       ],
-      "requires": "|Key (DLC):5| AND |@Fire|"
+      "requires": "|Key (25_DLC):5| AND |@Fire|"
     },
     {
-      "region": "DLC",
+      "region": "25_DLC",
       "name": "DLC: TreasureChest Haunted Courtyard (Off-Paath)",
       "category": [
-        "25: Darklight Crypt",
+        "25_Darklight Crypt",
         "AdventurePack"
       ],
-      "requires": "|Key (DLC):1| "
+      "requires": "|Key (25_DLC):1| "
     },
     {
-      "region": "DLC",
+      "region": "25_DLC",
       "name": "DLC: TreasureChest Haunted Village (Off-Path)",
       "category": [
-        "25: Darklight Crypt",
+        "25_Darklight Crypt",
         "AdventurePack"
       ],
-      "requires": "|Key (DLC):1| "
+      "requires": "|Key (25_DLC):1| "
     },
     {
-      "region": "DLC",
+      "region": "25_DLC",
       "name": "DLC: TreasureChest Hedge Maze (Path)",
       "category": [
-        "25: Darklight Crypt",
+        "25_Darklight Crypt",
         "AdventurePack"
       ],
-      "requires": "|Key (DLC):5| AND |@Fire|"
+      "requires": "|Key (25_DLC):5| AND |@Fire|"
     },
     {
-      "region": "DLC",
+      "region": "25_DLC",
       "name": "DLC: StoryScroll",
       "category": [
-        "25: Darklight Crypt",
+        "25_Darklight Crypt",
         "AdventurePack"
       ],
-      "requires": "|Key (DLC):1| "
+      "requires": "|Key (25_DLC):1| "
     },
     {
       "name": "DP: Complete Level",
-      "region": "DP",
+      "region": "26_DP",
       "category": [
-        "26: Dragons Peak",
+        "26_Dragons Peak",
         "AdventurePack"
       ],
       "requires": ""
     },
     {
       "name": "DP: Key Air Gate",
-      "region": "DP",
+      "region": "26_DP",
       "category": [
-        "26: Dragons Peak",
+        "26_Dragons Peak",
         "AdventurePack"
       ],
       "requires": "|@Air| "
     },
     {
       "name": "DP: SoulGem Sunburn",
-      "region": "DP",
+      "region": "26_DP",
       "category": [
-        "26: Dragons Peak",
+        "26_Dragons Peak",
         "AdventurePack"
       ],
       "requires": ""
     },
     {
       "name": "DP: LegendaryTreasure",
-      "region": "DP",
+      "region": "26_DP",
       "category": [
-        "26: Dragons Peak",
+        "26_Dragons Peak",
         "AdventurePack"
       ],
       "requires": ""
     },
     {
       "name": "DP: Hat AirGate",
-      "region": "DP",
+      "region": "26_DP",
       "category": [
-        "26: Dragons Peak",
+        "26_Dragons Peak",
         "AdventurePack"
       ],
-      "requires": "|Key (DP):1| AND |@Air| "
+      "requires": "|Key (26_DP):1| AND |@Air| "
     },
     {
-      "region": "DP",
+      "region": "26_DP",
       "name": "DP: Hat Open",
       "category": [
-        "26: Dragons Peak",
+        "26_Dragons Peak",
         "AdventurePack"
       ],
       "requires": ""
     },
     {
       "name": "DP: TreasureChest Dragon Cliffs (Path)",
-      "region": "DP",
+      "region": "26_DP",
       "category": [
-        "26: Dragons Peak",
+        "26_Dragons Peak",
         "AdventurePack"
       ],
       "requires": ""
     },
     {
       "name": "DP: TeasureChest Path Of Challenges (Path)",
-      "region": "DP",
+      "region": "26_DP",
       "category": [
-        "26: Dragons Peak",
+        "26_Dragons Peak",
         "AdventurePack"
       ],
       "requires": ""
     },
     {
       "name": "DP: TreasureChest Elder Dragon Throne (Path)",
-      "region": "DP",
+      "region": "26_DP",
       "category": [
-        "26: Dragons Peak",
+        "26_Dragons Peak",
         "AdventurePack"
       ],
       "requires": ""
     },
     {
       "name": "DP: StoryScroll",
-      "region": "DP",
+      "region": "26_DP",
       "category": [
-        "26: Dragons Peak",
+        "26_Dragons Peak",
         "AdventurePack"
       ],
       "requires": ""
    },
-    {
-      "name": "QSV: Key After Puzzles",
-      "region": "QSV",
-      "category": [
-        "20: Quicksilver Vault"
-      ],
-      "requires": "|Key (QSV):2|"
-    },
-    {
-      "name": "SS: Complete Level",
-      "region": "SS",
-      "category": [
-        "04: Stormy Stronghold"
-      ],
-      "requires": "|Key (SS)|"
-    },
-    {
-      "name": "LL: Complete Level",
-      "region": "LL",
-      "category": [
-        "07: Leviathan Lagoon"
-      ],
-      "requires": "(|Key (LL)| OR (|@Water| OR |@Flight|)) AND (|@Skylanders:3| OR {YamlDisabled(Kaos_Fights_Require_3_Skylanders)})"
-    },
-    {
-      "name": "ST: Complete Level",
-      "region": "ST",
-      "category": [
-        "09: Stonetown"
-      ],
-      "requires": "|Key (ST):4| OR (|Key (ST):1| AND |Soulgem Warnado|)"
-    },
-    {
-      "name": "FF: Complete Level",
-      "region": "FF",
-      "category": [
-        "11: Falling Forest"
-      ],
-      "requires": "(|@Skylanders:3| OR {YamlDisabled(Kaos_Fights_Require_3_Skylanders)})"
-    },
-    {
-      "name": "BF: Complete Level",
-      "region": "BF",
-      "category": [
-        "14: Battlefield"
-      ],
-      "requires": "|Key (BF):3| OR (|Soulgem Ghost Roaster| AND {YamlEnabled(Ghost_Roaster_Launches)})"
-    },
-    {
-      "name": "CrCi: Complete Level",
-      "region": "CrCi",
-      "category": [
-        "17: Creepy Citadel"
-      ],
-      "requires": " |@Skylanders:3|"
-    },
-    {
-      "name": "LLR: Complete Level",
-      "region": "LLR",
-      "category": [
-        "19: Lava Lakes Railway"
-      ],
-      "requires": "(|@Skylanders:3| OR {YamlDisabled(Kaos_Fights_Require_3_Skylanders)})"
-    },
-    {
-      "name": "AA: Complete Level",
-      "region": "AA",
-      "category": [
-        "21: Arkeyan Armory"
-      ],
-      "requires": "(|@Earth| OR |Soulgem Drill Sergeant|) AND |@Air|"
-    },
     {
       "name": "Hub: Winged Sapphire By Persephone ",
       "region": "Hub",
@@ -2540,7 +2543,10 @@
       "category": [
         "Accolades"
       ],
-      "requires": "|@Magic:1| AND |Treetop Terrace| AND |Crawling Catacombs| AND |Cadaverous Crypt|"
+      "requires": "|@Magic:1| AND |10_Treetop Terrace| AND |15_Crawling Catacombs| AND |16_Cadaverous Crypt|"
     }
+
+
+    
   ]
 }

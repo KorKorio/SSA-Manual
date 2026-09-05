@@ -3,7 +3,7 @@
   "data": [
     {
       "count": 1,
-      "name": "Shattered Island",
+      "name": "01_Shattered Island",
       "category": [
         "Levels"
       ],
@@ -11,7 +11,7 @@
     },
     {
       "count": 1,
-      "name": "Perilous Pastures",
+      "name": "02_Perilous Pastures",
       "category": [
         "Levels"
       ],
@@ -19,7 +19,7 @@
     },
     {
       "count": 1,
-      "name": "Sky Schooner Docks",
+      "name": "03_Sky Schooner Docks",
       "category": [
         "Levels"
       ],
@@ -27,7 +27,7 @@
     },
     {
       "count": 1,
-      "name": "Stormy Stronghold",
+      "name": "04_Stormy Stronghold",
       "category": [
         "Levels"
       ],
@@ -35,7 +35,7 @@
     },
     {
       "count": 1,
-      "name": "Oilspill Island",
+      "name": "05_Oilspill Island",
       "category": [
         "Levels"
       ],
@@ -43,7 +43,7 @@
     },
     {
       "count": 1,
-      "name": "Dark Water Cove",
+      "name": "06_Dark Water Cove",
       "category": [
         "Levels"
       ],
@@ -51,7 +51,7 @@
     },
     {
       "count": 1,
-      "name": "Leviathan Lagoon",
+      "name": "07_Leviathan Lagoon",
       "category": [
         "Levels"
       ],
@@ -59,7 +59,7 @@
     },
     {
       "count": 1,
-      "name": "Crystal Eye Castle",
+      "name": "08_Crystal Eye Castle",
       "category": [
         "Levels"
       ],
@@ -67,7 +67,7 @@
     },
     {
       "count": 1,
-      "name": "Stonetown",
+      "name": "09_Stonetown",
       "category": [
         "Levels"
       ],
@@ -75,7 +75,7 @@
     },
     {
       "count": 1,
-      "name": "Treetop Terrace",
+      "name": "10_Treetop Terrace",
       "category": [
         "Levels"
       ],
@@ -83,7 +83,7 @@
     },
     {
       "count": 1,
-      "name": "Falling Forest",
+      "name": "11_Falling Forest",
       "category": [
         "Levels"
       ],
@@ -91,7 +91,7 @@
     },
     {
       "count": 1,
-      "name": "Troll Warehouse",
+      "name": "12_Troll Warehouse",
       "category": [
         "Levels"
       ],
@@ -99,7 +99,7 @@
     },
     {
       "count": 1,
-      "name": "Goo Factory",
+      "name": "13_Goo Factory",
       "category": [
         "Levels"
       ],
@@ -107,7 +107,7 @@
     },
     {
       "count": 1,
-      "name": "Battlefield",
+      "name": "14_Battlefield",
       "category": [
         "Levels"
       ],
@@ -115,7 +115,7 @@
     },
     {
       "count": 1,
-      "name": "Crawling Catacombs",
+      "name": "15_Crawling Catacombs",
       "category": [
         "Levels"
       ],
@@ -123,7 +123,7 @@
     },
     {
       "count": 1,
-      "name": "Cadaverous Crypt",
+      "name": "16_Cadaverous Crypt",
       "category": [
         "Levels"
       ],
@@ -131,7 +131,7 @@
     },
     {
       "count": 1,
-      "name": "Creepy Citadel",
+      "name": "17_Creepy Citadel",
       "category": [
         "Levels"
       ],
@@ -139,7 +139,7 @@
     },
     {
       "count": 1,
-      "name": "Molekin Mine",
+      "name": "18_Molekin Mine",
       "category": [
         "Levels"
       ],
@@ -147,7 +147,7 @@
     },
     {
       "count": 1,
-      "name": "Lava Lakes Railway",
+      "name": "19_Lava Lakes Railway",
       "category": [
         "Levels"
       ],
@@ -155,7 +155,7 @@
     },
     {
       "count": 1,
-      "name": "Quicksilver Vault",
+      "name": "20_Quicksilver Vault",
       "category": [
         "Levels"
       ],
@@ -163,7 +163,7 @@
     },
     {
       "count": 1,
-      "name": "Arkeyan Armory",
+      "name": "21_Arkeyan Armory",
       "category": [
         "Levels"
       ],
@@ -171,7 +171,7 @@
     },
     {
       "count": 1,
-      "name": "Lair Of Kaos",
+      "name": "22_Lair of Kaos",
       "category": [
         "Levels"
       ],
@@ -179,7 +179,7 @@
     },
     {
       "count": 1,
-      "name": "Empire Of Ice",
+      "name": "23_Empire of Ice",
       "category": [
         "Levels",
         "AdventurePack"
@@ -188,7 +188,7 @@
     },
     {
       "count": 1,
-      "name": "Pirate Seas",
+      "name": "24_Pirate Seas",
       "category": [
         "Levels",
         "AdventurePack"
@@ -197,7 +197,7 @@
     },
     {
       "count": 1,
-      "name": "Darklight Crypt",
+      "name": "25_Darklight Crypt",
       "category": [
         "Levels",
         "AdventurePack"
@@ -206,7 +206,7 @@
     },
     {
       "count": 1,
-      "name": "Dragons Peak",
+      "name": "26_Dragons Peak",
       "category": [
         "Levels",
         "AdventurePack"
@@ -998,7 +998,7 @@
     },
     {
       "count": "3",
-      "name": "Key (SI)",
+      "name": "Key (01_SI)",
       "category": [
         "Keys"
       ],
@@ -1006,7 +1006,7 @@
     },
     {
       "count": "3",
-      "name": "Key (PP)",
+      "name": "Key (02_PP)",
       "category": [
         "Keys"
       ],
@@ -1014,7 +1014,7 @@
     },
     {
       "count": "2",
-      "name": "Key (SSD)",
+      "name": "Key (03_SSD)",
       "category": [
         "Keys"
       ],
@@ -1022,7 +1022,7 @@
     },
     {
       "count": 1,
-      "name": "Key (SS)",
+      "name": "Key (04_SS)",
       "category": [
         "Keys"
       ],
@@ -1030,7 +1030,7 @@
     },
     {
       "count": "5",
-      "name": "Key (OSI)",
+      "name": "Key (05_OSI)",
       "category": [
         "Keys"
       ],
@@ -1038,7 +1038,7 @@
     },
     {
       "count": "2",
-      "name": "Key (DWC)",
+      "name": "Key (06_DWC)",
       "category": [
         "Keys"
       ],
@@ -1046,63 +1046,31 @@
     },
     {
       "count": 1,
-      "name": "Key (LL)",
+      "name": "Key (07_LL)",
       "category": [
         "Keys"
       ],
       "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Key (CEC)",
-      "category": [
-        "Keys"
-      ],
-      "trap": true
     },
     {
       "count": "4",
-      "name": "Key (ST)",
+      "name": "Key (09_ST)",
       "category": [
         "Keys"
       ],
       "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Key (TT)",
-      "category": [
-        "Keys"
-      ],
-      "trap": true
-    },
-    {
-      "count": 1,
-      "name": "Key (FF)",
-      "category": [
-        "Keys"
-      ],
-      "trap": true
     },
     {
       "count": "8",
-      "name": "Key (TWH)",
+      "name": "Key (12_TWH)",
       "category": [
         "Keys"
       ],
       "progression": true
     },
     {
-      "count": 1,
-      "name": "Key (GF)",
-      "category": [
-        "Keys"
-      ],
-      "trap": true
-    },
-    {
       "count": "3",
-      "name": "Key (BF)",
+      "name": "Key (14_BF)",
       "category": [
         "Keys"
       ],
@@ -1110,7 +1078,7 @@
     },
     {
       "count": "6",
-      "name": "Key (CrCa)",
+      "name": "Key (15_CrCa)",
       "category": [
         "Keys"
       ],
@@ -1118,7 +1086,7 @@
     },
     {
       "count": 1,
-      "name": "Key (CaCr)",
+      "name": "Key (16_CaCr)",
       "category": [
         "Keys"
       ],
@@ -1126,47 +1094,23 @@
     },
     {
       "count": 1,
-      "name": "Key (CrCi)",
-      "category": [
-        "Keys"
-      ],
-      "trap": true
-    },
-    {
-      "count": 1,
-      "name": "Key (MM)",
+      "name": "Key (18_MM)",
       "category": [
         "Keys"
       ],
       "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Key (LLR)",
-      "category": [
-        "Keys"
-      ],
-      "trap": true
     },
     {
       "count": "3",
-      "name": "Key (QSV)",
+      "name": "Key (20_QSV)",
       "category": [
         "Keys"
       ],
       "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Key (AA)",
-      "category": [
-        "Keys"
-      ],
-      "trap": true
     },
     {
       "count": "4",
-      "name": "Key (LOK)",
+      "name": "Key (22_LOK)",
       "category": [
         "Keys"
       ],
@@ -1174,7 +1118,7 @@
     },
     {
       "count": 1,
-      "name": "Key (EOI)",
+      "name": "Key (23_EOI)",
       "category": [
         "Keys",
         "AdventurePack"
@@ -1183,7 +1127,7 @@
     },
     {
       "count": 1,
-      "name": "Key (PS)",
+      "name": "Key (24_PS)",
       "category": [
         "Keys",
         "AdventurePack"
@@ -1192,7 +1136,7 @@
     },
     {
       "count": "5",
-      "name": "Key (DLC)",
+      "name": "Key (25_DLC)",
       "category": [
         "Keys",
         "AdventurePack"
@@ -1201,7 +1145,7 @@
     },
     {
       "count": 1,
-      "name": "Key (DP)",
+      "name": "Key (26_DP)",
       "category": [
         "Keys",
         "AdventurePack"

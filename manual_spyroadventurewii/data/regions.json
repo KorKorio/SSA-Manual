@@ -3,189 +3,439 @@
   "Hub": {
     "starting": true,
     "connects_to": [
-      "SI",
-      "PP",
-      "SSD",
-      "SS",
-      "OSI",
-      "DWC",
-      "LL",
-      "CEC",
-      "ST",
-      "TT",
-      "FF",
-      "TWH",
-      "GF",
-      "BF",
-      "CrCa",
-      "CaCr",
-      "CrCi",
-      "MM",
-      "LLR",
-      "QSV",
-      "AA",
-      "LOK",
-      "EOI",
-      "PS",
-      "DLC",
-      "DP"
+      "01_SI",
+      "02_PP",
+      "03_SSD",
+      "04_SS",
+      "05_OSI",
+      "06_DWC",
+      "07_LL",
+      "08_CEC",
+      "09_ST",
+      "10_TT",
+      "11_FF",
+      "12_TWH",
+      "13_GF",
+      "14_BF",
+      "15_CrCa",
+      "16_CaCr",
+      "17_CrCi",
+      "18_MM",
+      "19_LLR",
+      "20_QSV",
+      "21_AA",
+      "22_LOK",
+      "23_EOI",
+      "24_PS",
+      "25_DLC",
+      "26_DP"
     ],
     "requires": ""
   },
-  "SI": {
+  "01_SI": {
     "connects_to": [
-      "Hub"
+      "Ch01 Key1"
     ],
-    "requires": "|Shattered Island|"
+    "requires": "|01_Shattered Island|"
   },
-  "PP": {
+  "Ch01 Key1": {
     "connects_to": [
-      "Hub"
+      "Ch01 Key2"
     ],
-    "requires": "|Perilous Pastures|"
+    "requires": "|Key (01_SI):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
   },
-  "SSD": {
+  "Ch01 Key2": {
     "connects_to": [
-      "Hub"
+      "Ch01 Key3",
+      "Ch01 Magic",
+      "Ch01 Tech",
+      "Ch01 Water"
     ],
-    "requires": "|Sky Schooner Docks|"
+    "requires": "|Key (01_SI):2| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
   },
-  "SS": {
-    "connects_to": [
-      "Hub"
-    ],
-    "requires": "|Stormy Stronghold|"
+  "Ch01 Key3": {
+    "requires": "|Key (01_SI):3|"
   },
-  "OSI": {
-    "connects_to": [
-      "Hub"
-    ],
-    "requires": "|Oilspill Island|"
+  "Ch01 Magic": {
+    "requires": "|@Magic|"
   },
-  "DWC": {
-    "connects_to": [
-      "Hub"
-    ],
-    "requires": "|Dark Water Cove|"
+  "Ch01 Tech": {
+    "requires": "|@Tech|"
   },
-  "LL": {
-    "connects_to": [
-      "Hub"
-    ],
-    "requires": "|Leviathan Lagoon|"
+  "Ch01 Water": {
+    "requires": "|@Water|"
   },
-  "CEC": {
+  "02_PP": {
     "connects_to": [
-      "Hub"
+      "Ch02 Tech",
+      "Ch02 Key1"
     ],
-    "requires": "|Crystal Eye Castle|"
+    "requires": "|02_Perilous Pastures|"
   },
-  "ST": {
-    "connects_to": [
-      "Hub"
-    ],
-    "requires": "|Stonetown|"
+  "Ch02 Tech": {
+    "requires": "|@Tech|"
   },
-  "TT": {
+  "Ch02 Key1": {
     "connects_to": [
-      "Hub"
+      "Ch02 Key2"
     ],
-    "requires": "|Treetop Terrace|"
+    "requires": "|Key (02_PP):1|"
   },
-  "FF": {
+  "Ch02 Key2": {
     "connects_to": [
-      "Hub"
+      "Ch02 Key3"
     ],
-    "requires": "|Falling Forest|"
+    "requires": "|Key (02_PP):2|"
   },
-  "TWH": {
+  "Ch02 Key3": {
     "connects_to": [
-      "Hub"
+      "Ch02 Water",
+      "Ch02 Life Bonus"
     ],
-    "requires": "|Troll Warehouse|"
+    "requires": "|Key (02_PP):3|"
   },
-  "GF": {
-    "connects_to": [
-      "Hub"
-    ],
-    "requires": "|Goo Factory|"
+  "Ch02 Water": {
+    "requires": "|@Water|"
   },
-  "BF": {
-    "connects_to": [
-      "Hub"
-    ],
-    "requires": "|Battlefield|"
+  "Ch02 Life Bonus": {
+    "requires": "|@Life|"
   },
-  "CrCa": {
+  "03_SSD": {
     "connects_to": [
-      "Hub"
+      "Ch03 Key1"
     ],
-    "requires": "|Crawling Catacombs|"
+    "requires": "|03_Sky Schooner Docks|"
   },
-  "CaCr": {
+  "Ch03 Key1": {
     "connects_to": [
-      "Hub"
+      "Ch03 Earth",
+      "Ch03 Undead"
     ],
-    "requires": "|Cadaverous Crypt|"
+    "requires": "|Key (03_SSD):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
   },
-  "CrCi": {
-    "connects_to": [
-      "Hub"
-    ],
-    "requires": "|Creepy Citadel|"
+  "Ch03 Earth": {
+    "requires": "|@Earth|"
   },
-  "MM": {
+  "Ch03 Undead": {
     "connects_to": [
-      "Hub"
+      "Ch03 Undead Key2"
     ],
-    "requires": "|Molekin Mine|"
+    "requires": "|@Undead|"
   },
-  "LLR": {
-    "connects_to": [
-      "Hub"
-    ],
-    "requires": "|Lava Lakes Railway|"
+  "Ch03 Undead Key2": {
+    "requires": "|Key (03_SSD):2| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
   },
-  "QSV": {
+  "04_SS": {
     "connects_to": [
-      "Hub"
+      "Ch04 Key1"
     ],
-    "requires": "|Quicksilver Vault|"
+    "requires": "|04_Stormy Stronghold|"
   },
-  "AA": {
+  "Ch04 Key1": {
     "connects_to": [
-      "Hub"
+      "Ch04 Life",
+      "Ch04 Air"
     ],
-    "requires": "|Arkeyan Armory|"
+    "requires": "|Key (04_SS):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
   },
-  "LOK": {
-    "connects_to": [
-      "Hub"
-    ],
-    "requires": "|Lair Of Kaos|"
+  "Ch04 Life": {
+    "requires": "|@Life|"
   },
-  "EOI": {
-    "connects_to": [
-      "Hub"
-    ],
-    "requires": "|Empire Of Ice|"
+  "Ch04 Air": {
+    "requires": "|@Air|"
   },
-  "PS": {
+  "05_OSI": {
     "connects_to": [
-      "Hub"
+      "Ch05 Fire",
+      "Ch05 Key5"
     ],
-    "requires": "|Pirate Seas|"
+    "requires": "|05_Oilspill Island|"
   },
-  "DLC": {
-    "connects_to": [
-      "Hub"
-    ],
-    "requires": "|Darklight Crypt|"
+  "Ch05 Fire": {
+    "requires": "|@Fire|"
   },
-  "DP": {
+  "Ch05 Key5": {
+    "requires": "|Key (05_OSI):5|"
+  },
+  "06_DWC": {
     "connects_to": [
-      "Hub"
+      "Ch06 Key1"
     ],
-    "requires": "|Dragons Peak|"
+    "requires": "|06_Dark Water Cove|"
+  },
+  "Ch06 Key1": {
+    "connects_to": [
+      "Ch06 Magic",
+      "Ch06 Key2"
+    ],
+    "requires": "|Key (06_DWC):1|"
+  },
+  "Ch06 Magic": {
+    "requires": "|@Magic|"
+  },
+  "Ch06 Key2": {
+    "connects_to": [
+      "Ch06 Water"
+    ],
+    "requires": "|Key (06_DWC):2|"
+  },
+  "Ch06 Water": {
+    "requires": "|@Water|"
+  },
+  "07_LL": {
+    "connects_to": [
+      "Ch07 Key1",
+      "Ch07 Water"
+    ],
+    "requires": "|07_Leviathan Lagoon|"
+  },
+  "Ch07 Key1": {
+    "requires": "|Key (07_LL):1| OR (|@Water| OR |@Flight|)"
+  },
+  "Ch07 Water": {
+    "requires": "|@Water|"
+  },
+  "08_CEC": {
+    "connects_to": [
+      "Ch08 Undead",
+      "Ch08 Earth"
+    ],
+    "requires": "|08_Crystal Eye Castle|"
+  },
+  "Ch08 Undead": {
+    "requires": "|@Undead|"
+  },
+  "Ch08 Earth": {
+    "requires": "|@Earth|"
+  },
+  "09_ST": {
+    "connects_to": [
+      "Ch09 Key1"
+    ],
+    "requires": "|09_Stonetown|"
+  },
+  "Ch09 Key1": {
+    "connects_to": [
+      "Ch09 Key4"
+    ],
+    "requires": "|Key (09_ST):1|"
+  },
+  "Ch09 Key4": {
+    "connects_to": [
+      "Ch09 Life"
+    ],
+    "requires": "|Key (09_ST):4| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
+  },
+  "Ch09 Life": {
+    "requires": "|@Life|"
+  },
+  "10_TT": {
+    "connects_to": [
+      "Ch10 Magic"
+    ],
+    "requires": "|10_Treetop Terrace|"
+  },
+  "Ch10 Magic": {
+    "requires": "|@Magic|"
+  },
+  "11_FF": {
+    "connects_to": [
+      "Ch11 Earth"
+    ],
+    "requires": "|11_Falling Forest|"
+  },
+  "Ch11 Earth": {
+    "requires": "|@Earth|"
+  },
+  "12_TWH": {
+    "connects_to": [
+      "Ch12 Fire",
+      "Ch12 Life"
+    ],
+    "requires": "|12_Troll Warehouse|"
+  },
+  "Ch12 Fire": {
+    "requires": "|@Fire|"
+  },
+  "Ch12 Life": {
+    "requires": "|@Life|"
+  },
+  "13_GF": {
+    "connects_to": [
+      "Ch13 Air",
+      "Ch13 Fire"
+    ],
+    "requires": "|13_Goo Factory|"
+  },
+  "Ch13 Air": {
+    "requires": "|@Air|"
+  },
+  "Ch13 Fire": {
+    "requires": "|@Fire|"
+  },
+  "14_BF": {
+    "connects_to": [
+      "Ch14 Key1"
+    ],
+    "requires": "|14_Battlefield|"
+  },
+  "Ch14 Key1": {
+    "connects_to": [
+      "Ch14 Undead",
+      "Ch14 Key3"
+    ],
+    "requires": "|Key (14_BF):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
+  },
+  "Ch14 Undead": {
+    "requires": "|@Undead|"
+  },
+  "Ch14 Key3": {
+    "requires": "|Key (14_BF):3| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
+  },
+  "15_CrCa": {
+    "connects_to": [
+      "Ch15 Key3"
+    ],
+    "requires": "|15_Crawling Catacombs|"
+  },
+  "Ch15 Key3": {
+    "connects_to": [
+      "Ch15 Undead",
+      "Ch15 Key4"
+    ],
+    "requires": "|Key (15_CrCa):3| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
+  },
+  "Ch15 Undead": {
+    "requires": "|@Undead|"
+  },
+  "Ch15 Key4": {
+    "connects_to": [
+      "Ch15 Key6"
+    ],
+    "requires": "|Key (15_CrCa):4| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
+  },
+  "Ch15 Key6": {
+    "requires": "|Key (15_CrCa):6| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
+  },
+  "16_CaCr": {
+    "connects_to": [
+      "Ch16 Earth",
+      "Ch16 Tech",
+      "Ch16 Key1",
+      "Ch16 End"
+    ],
+    "requires": "|16_Cadaverous Crypt|"
+  },
+  "Ch16 Earth": {
+    "requires": "|@Earth|"
+  },
+  "Ch16 Tech": {
+    "requires": "|@Tech|"
+  },
+  "Ch16 Key1": {
+    "connects_to": [
+      "Ch16 End"
+    ],
+    "requires": "|Key (16_CaCr):1|"
+  },
+  "Ch16 End": {
+    "requires": "|Key (16_CaCr):1|"
+  },
+  "17_CrCi": {
+    "connects_to": [
+      "Ch17 Air"
+    ],
+    "requires": "|17_Creepy Citadel|"
+  },
+  "Ch17 Air": {
+    "requires": "|@Air|"
+  },
+  "18_MM": {
+    "connects_to": [
+      "Ch18 Tech",
+      "Ch18 Tzo"
+    ],
+    "requires": "|18_Molekin Mine|"
+  },
+  "Ch18 Tech": {
+    "requires": "|@Tech|"
+  },
+  "Ch18 Tzo": {
+    "requires": "|Key (18_MM):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
+  },
+  "19_LLR": {
+    "connects_to": [
+      "Ch19 Fire"
+    ],
+    "requires": "|19_Lava Lakes Railway|"
+  },
+  "Ch19 Fire": {
+    "requires": "|@Fire|"
+  },
+  "20_QSV": {
+    "connects_to": [
+      "Ch20 Key1"
+    ],
+    "requires": "|20_Quicksilver Vault|"
+  },
+  "Ch20 Key1": {
+    "connects_to": [
+      "Ch20 Life",
+      "Ch20 Key2"
+    ],
+    "requires": "|Key (20_QSV):1|"
+  },
+  "Ch20 Life": {
+    "requires": "|@Life|"
+  },
+  "Ch20 Key2": {
+    "connects_to": [
+      "Ch20 Key3"
+    ],
+    "requires": "|Key (20_QSV):2|"
+  },
+  "Ch20 Key3": {
+    "requires": "|Key (20_QSV):3|"
+  },
+  "21_AA": {
+    "connects_to": [
+      "Ch21 Air"
+    ],
+    "requires": "|21_Arkeyan Armory|"
+  },
+  "Ch21 Air": {
+    "requires": "|@Air|"
+  },
+  "22_LOK": {
+    "connects_to": [
+      "Ch22 Key1"
+    ],
+    "requires": "|22_Lair of Kaos|"
+  },
+  "Ch22 Key1": {
+    "connects_to": [
+      "Ch22 Magic",
+      "Ch22 Key4"
+    ],
+    "requires": "|Key (22_LOK):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
+  },
+  "Ch22 Magic": {
+    "requires": "|@Magic|"
+  },
+  "Ch22 Key4": {
+    "requires": "|Key (22_LOK):4|"
+  },
+  "23_EOI": {
+    "requires": "|23_Empire of Ice|"
+  },
+  "24_PS": {
+    "requires": "|24_Pirate Seas|"
+  },
+  "25_DLC": {
+    "requires": "|25_Darklight Crypt|"
+  },
+  "26_DP": {
+    "requires": "|26_Dragons Peak|"
   }
+  
 }

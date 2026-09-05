@@ -23,6 +23,36 @@
 	},
 "Accolades": {
 	"yaml_option": ["Shuffle_Accolades"]
-	}
+	},
+
+
+
+  "Air": {
+  "hidden": true
+  },
+  "Complete Non-Use": {
+  "hidden": true
+  },
+  "Earth": {
+  "hidden": true
+  },
+  "Flight": {
+  "hidden": true
+  },
+  "Life": {
+  "hidden": true
+  },
+  "Magic": {
+  "hidden": true
+  },
+  "Tech": {
+  "hidden": true
+  },
+  "Undead": {
+  "hidden": true
+  },
+  "Water": {
+  "hidden": true
+  }
 
 }

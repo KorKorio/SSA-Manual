@@ -26,6 +26,8 @@
             "type": "Toggle",
             "default": true
         },
+
+        
         "Shuffle_Adventure_Packs":{
             "display_name": "Include Adventure Packs",
             "description": "Shuffles Adventure Pack Locations and Items",
@@ -41,7 +43,7 @@
         },
        "Shuffle_Sapphires":{
             "display_name": "Shuffle Winged Sapphires",
-            "description": "Shuffles Winged Sapphires in hub as locations and items (you can ignore the items if yhou wish)",
+            "description": "Shuffles Winged Sapphires in hub as locations and items (you can ignore the items if you wish)",
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
@@ -68,7 +70,7 @@
 	    "group": "Extra Shuffles"
         },
 
-	"Kaos_Fights_Require_3_Skylanders":{
+    	"Kaos_Fights_Require_3_Skylanders":{
             "display_name": "Kaos Fights Require 3 Skylanders",
             "description": "Ensures you always have at least 3 Skylanders before fighting Kaos in chapters 7, 11, 17, 19, and 21. Disable if using pre-built Skylanders",
             "type": "Toggle",
@@ -80,10 +82,10 @@
             ],
             "default": true,
 	    "group": "Logic Options and Tricks"
-	},
-	"Skip_to_2nd_DWC_Ship":{
-            "display_name": "Skip to 2nd Ship in DWC",
-            "description": "Use the Bouncepad on the beach by East Gate Treasure Chest to reach the 2nd ship early. Done with Warnado or Bash",
+    	},
+	    "Warnado_Jumps":{
+            "display_name": "Warnado Jumps",
+            "description": "Adds logic for using Warnado to jump over certain barriers. Assumes a max speed Warnado on the left upgrade path.",
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
@@ -93,47 +95,111 @@
             ],
             "default": false,
 	    "group": "Logic Options and Tricks"
-	},
-	"Core_Warnado_Jumps":{
-            "display_name": "Core Warnado Jumps",
-            "description": "Base-Speed Warnado Jumps commonlly used in Speedruns",
+    	},
+        "_Camo_Jumps":{
+            "display_name": "Camo Jumps",
+            "description": "Adds logic for using Camo's vine attack to climb over certain barriers. Assumes a max speed Camo.",
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
                 "complex_ui",
                 "template",
-		"spoiler"
+        "spoiler"
             ],
             "default": false,
-	    "group": "Logic Options and Tricks"
-	},
-	"Obscure_Warnado_Jumps":{
-            "display_name": "Obscure Warnado Jumps",
-            "description": "Lesser Used or Difficult Base-Speed Warnado Jumps",
+        "group": "Logic Options and Tricks"
+        },
+        "_Dash_Climbs":{
+            "display_name": "Dash Climbs and Jumps",
+            "description": "Adds logic for skips that involve using Ghost Roaster, Zap, or Sunburn's dashes over slopes or ledges to skip certain barriers.",
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
                 "complex_ui",
                 "template",
-		"spoiler"
+        "spoiler"
             ],
             "default": false,
-	    "group": "Logic Options and Tricks"
-	},
-        
-	"Ghost_Roaster_Launches":{
-            "display_name": "Ghost Roaster Launches",
-            "description": "Use Ghost Roaster to climb over walls. Used in Chapters 3 and 14",
+        "group": "Logic Options and Tricks"
+        },
+        "_Tilted_Flight":{
+            "display_name": "Tilted Flight",
+            "description": "Adds logic for using tilted flight with Whirlwind, Spyro, and Sonic Boom. Starting to fly on steep slopes disjoints these Skylanders' hitboxes, allowing them to clip through certain obstacles.",
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
                 "complex_ui",
                 "template",
-		"spoiler"
+        "spoiler"
             ],
             "default": false,
-	    "group": "Logic Options and Tricks"
-	}
+        "group": "Logic Options and Tricks"
+         },
+        "_Air_Stalls":{
+            "display_name": "Air Stalls",
+            "description": "Adds logic for air stalling with Stump Smash and Terrafin + Winged Boots to skip the first gate in Chapter 2 from the Tech Gate, along with using Stump Smash to skip all gates in 14.",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+        "spoiler"
+            ],
+            "default": false,
+        "group": "Logic Options and Tricks"
+        },
+        "_Flamewalking":{
+            "display_name": "Flamewalking",
+            "description": "Enables logic for squeezing around the side of certain obstacles by using held attacks with Flameslinger, Ignitor, or Warnado. Requires figures to have specific speed stats, which can be achieved with 2 speed heroics, or with no heroics and the Winged Hat.",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+        "spoiler"
+            ],
+            "default": false,
+        "group": "Logic Options and Tricks"
+        },
+        "_Flamebashing":{
+            "display_name": "Flamebashing",
+            "description": "Adds logic for additional skips made possible by swapping from a flamewalking Flameslinger to Bash to clip into/onto obstacles.",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+        "spoiler"
+            ],
+            "default": false,
+        "group": "Logic Options and Tricks"
+        },
+        "_Ant_Skip":{
+            "display_name": "Chapter 6 Bouncepad Skip",
+            "description": "Adds logic for using Warnado, Bash, or Drobot to skip the second key gate by clipping out of bounds after bouncing on a bounce pad earlier in the level.",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+        "spoiler"
+            ],
+            "default": false,
+        "group": "Logic Options and Tricks"
+        },
+        "_glitch_name":{
+            "display_name": "Placeholder",
+            "description": "Placeholder",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+        "spoiler"
+            ],
+            "default": false,
+        "group": "Logic Options and Tricks"
+        }
     }
 
 }
