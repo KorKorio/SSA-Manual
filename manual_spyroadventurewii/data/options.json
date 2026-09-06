@@ -109,7 +109,7 @@
             "default": false,
         "group": "Logic Options and Tricks"
         },
-        "_Dash_Climbs":{
+        "Dash_Climbs":{
             "display_name": "Dash Climbs and Jumps",
             "description": "Adds logic for skips that involve using Ghost Roaster, Zap, or Sunburn's dashes over slopes or ledges to skip certain barriers.",
             "type": "Toggle",
@@ -122,7 +122,7 @@
             "default": false,
         "group": "Logic Options and Tricks"
         },
-        "_Tilted_Flight":{
+        "Tilted_Flight":{
             "display_name": "Tilted Flight",
             "description": "Adds logic for using tilted flight with Whirlwind, Spyro, and Sonic Boom. Starting to fly on steep slopes disjoints these Skylanders' hitboxes, allowing them to clip through certain obstacles.",
             "type": "Toggle",

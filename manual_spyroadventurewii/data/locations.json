@@ -1628,14 +1628,6 @@
       "requires": ""
     },
 {
-      "name": "18_MM_TreasureChest Underground Lake Ledge",
-      "region": "18_MM",
-      "category": [
-        "18_Molekin Mine"
-      ],
-      "requires": "(|@Water| OR |@Flight|) AND ((|Key (18_MM)| AND ((|@Water| OR |@Flight|) AND |@Speed19|)) OR |Soulgem Prism Break|)"
-    },
-{
       "name": "18_MM_Hat TechGate",
       "region": "Ch18 Tech",
       "category": [
@@ -1645,7 +1637,7 @@
     },
 {
       "name": "18_MM_SoulGem Flameslinger",
-      "region": "Ch18 Tzo",
+      "region": "Ch18 Tzo High",
       "category": [
         "18_Molekin Mine"
       ],
@@ -1653,7 +1645,15 @@
     },
 {
       "name": "18_MM_TreasureChest Crystal Grove",
-      "region": "Ch18 Tzo",
+      "region": "Ch18 Tzo High",
+      "category": [
+        "18_Molekin Mine"
+      ],
+      "requires": ""
+    },
+{
+      "name": "18_MM_TreasureChest Underground Lake Ledge",
+      "region": "18_MM",
       "category": [
         "18_Molekin Mine"
       ],
@@ -1661,11 +1661,11 @@
     },
 {
       "name": "18_MM_TreasureChest Underground Lake Tzo ",
-      "region": "Ch18 Tzo",
+      "region": "18_MM",
       "category": [
         "18_Molekin Mine"
       ],
-      "requires": ""
+      "requires": "(|@Water| OR |@Flight|) AND ((|Key (18_MM)| AND |@Speed19|) OR |Soulgem Prism Break|)"
     },
 {
       "name": "19_LLR_Hat FireGate",
