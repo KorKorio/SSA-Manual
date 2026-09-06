@@ -42,7 +42,7 @@
     "connects_to": [
       "Ch01 Key2"
     ],
-    "requires": "|Key (01_SI):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
+    "requires": "|Key (01_SI):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)}) OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
   },
   "Ch01 Key2": {
     "connects_to": [
@@ -51,7 +51,7 @@
       "Ch01 Tech",
       "Ch01 Water"
     ],
-    "requires": "|Key (01_SI):2| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
+    "requires": "|Key (01_SI):2| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)}) OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
   },
   "Ch01 Key3": {
     "requires": "|Key (01_SI):3|"
@@ -85,14 +85,14 @@
     "connects_to": [
       "Ch02 Key3"
     ],
-    "requires": "|Key (02_PP):2|"
+    "requires": "|Key (02_PP):2| OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
   },
   "Ch02 Key3": {
     "connects_to": [
       "Ch02 Water",
       "Ch02 Life Bonus"
     ],
-    "requires": "|Key (02_PP):3|"
+    "requires": "|Key (02_PP):3| OR (|Key (02_PP):2| AND |Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
   },
   "Ch02 Water": {
     "requires": "|@Water|"
@@ -123,7 +123,7 @@
     "requires": "|@Undead|"
   },
   "Ch03 Undead Key2": {
-    "requires": "|Key (03_SSD):2| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
+    "requires": "|Key (03_SSD):2| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)}) OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
   },
   "04_SS": {
     "connects_to": [
@@ -136,7 +136,7 @@
       "Ch04 Life",
       "Ch04 Air"
     ],
-    "requires": "|Key (04_SS):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
+    "requires": "|Key (04_SS):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)}) OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
   },
   "Ch04 Life": {
     "requires": "|@Life|"
@@ -190,7 +190,7 @@
     "requires": "|07_Leviathan Lagoon|"
   },
   "Ch07 Key1": {
-    "requires": "|Key (07_LL):1| OR (|@Water| OR |@Flight|)"
+    "requires": "|Key (07_LL):1| OR (|@Water| OR |@Flight|) OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
   },
   "Ch07 Water": {
     "requires": "|@Water|"
@@ -224,7 +224,7 @@
     "connects_to": [
       "Ch09 Life"
     ],
-    "requires": "|Key (09_ST):4| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
+    "requires": "|Key (09_ST):4| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)}) OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
   },
   "Ch09 Life": {
     "requires": "|@Life|"
@@ -284,13 +284,13 @@
       "Ch14 Undead",
       "Ch14 Key3"
     ],
-    "requires": "|Key (14_BF):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
+    "requires": "|Key (14_BF):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)}) OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
   },
   "Ch14 Undead": {
     "requires": "|@Undead|"
   },
   "Ch14 Key3": {
-    "requires": "|Key (14_BF):3| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
+    "requires": "|Key (14_BF):3| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)}) OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
   },
   "15_CrCa": {
     "connects_to": [
@@ -303,7 +303,7 @@
       "Ch15 Undead",
       "Ch15 Key4"
     ],
-    "requires": "|Key (15_CrCa):3| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
+    "requires": "|Key (15_CrCa):3| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)}) OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
   },
   "Ch15 Undead": {
     "requires": "|@Undead|"
@@ -312,10 +312,10 @@
     "connects_to": [
       "Ch15 Key6"
     ],
-    "requires": "|Key (15_CrCa):4| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
+    "requires": "|Key (15_CrCa):4| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)}) OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
   },
   "Ch15 Key6": {
-    "requires": "|Key (15_CrCa):6| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
+    "requires": "|Key (15_CrCa):6| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)}) OR (|Key (15_CrCa):2| AND |Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
   },
   "16_CaCr": {
     "connects_to": [
@@ -336,10 +336,10 @@
     "connects_to": [
       "Ch16 End"
     ],
-    "requires": "|Key (16_CaCr):1|"
+    "requires": "|Key (16_CaCr):1| OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
   },
   "Ch16 End": {
-    "requires": "|Key (16_CaCr):1|"
+    "requires": "|Key (16_CaCr):1| OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
   },
   "17_CrCi": {
     "connects_to": [
@@ -361,7 +361,7 @@
     "requires": "|@Tech|"
   },
   "Ch18 Tzo": {
-    "requires": "|Key (18_MM):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
+    "requires": "|Key (18_MM):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)}) OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
   },
   "19_LLR": {
     "connects_to": [
@@ -383,7 +383,7 @@
       "Ch20 Life",
       "Ch20 Key2"
     ],
-    "requires": "|Key (20_QSV):1|"
+    "requires": "|Key (20_QSV):1| OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
   },
   "Ch20 Life": {
     "requires": "|@Life|"
@@ -417,7 +417,7 @@
       "Ch22 Magic",
       "Ch22 Key4"
     ],
-    "requires": "|Key (22_LOK):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)})"
+    "requires": "|Key (22_LOK):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)}) OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
   },
   "Ch22 Magic": {
     "requires": "|@Magic|"

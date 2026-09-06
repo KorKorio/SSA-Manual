@@ -1059,7 +1059,7 @@
       "category": [
         "12_Troll Warehouse"
       ],
-      "requires": ""
+      "requires": "|Key (12_TWH):2| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)}) OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
     },
 {
       "name": "12_TWH_Gate Behind Puzzle Right Key",
@@ -1067,7 +1067,7 @@
       "category": [
         "12_Troll Warehouse"
       ],
-      "requires": ""
+      "requires": "|Key (12_TWH):2| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)}) OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
     },
 {
       "name": "12_TWH_Gate Key Initial",
@@ -1083,7 +1083,7 @@
       "category": [
         "12_Troll Warehouse"
       ],
-      "requires": ""
+      "requires": "|Key (12_TWH):2| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)}) OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
     },
 {
       "name": "12_TWH_Gate Left KeyPen Upper",
@@ -1091,7 +1091,7 @@
       "category": [
         "12_Troll Warehouse"
       ],
-      "requires": ""
+      "requires": "|Key (12_TWH):2| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)}) OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
     },
 {
       "name": "12_TWH_Gate Middle Key",
@@ -1099,7 +1099,7 @@
       "category": [
         "12_Troll Warehouse"
       ],
-      "requires": ""
+      "requires": "|Key (12_TWH):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)}) OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
     },
 {
       "name": "12_TWH_Gate Right KeyPen Lower",
@@ -1107,7 +1107,7 @@
       "category": [
         "12_Troll Warehouse"
       ],
-      "requires": ""
+      "requires": "|Key (12_TWH):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)}) OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
     },
 {
       "name": "12_TWH_Gate Right KeyPen Upper",
@@ -1115,7 +1115,7 @@
       "category": [
         "12_Troll Warehouse"
       ],
-      "requires": ""
+      "requires": "|Key (12_TWH):1| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)}) OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
     },
 {
       "name": "12_TWH_Hat LifeGate",
@@ -1123,7 +1123,7 @@
       "category": [
         "12_Troll Warehouse"
       ],
-      "requires": ""
+      "requires": "|Key (12_TWH):5| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)}) OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
     },
 {
       "name": "12_TWH_TreasureChest Isolation Cells",
@@ -1131,7 +1131,7 @@
       "category": [
         "12_Troll Warehouse"
       ],
-      "requires": ""
+      "requires": "|Key (12_TWH):2| OR (|Soulgem Warnado| AND {YamlEnabled(Warnado_Jumps)}) OR (|Soulgem Camo| AND {YamlEnabled(Camo_Jumps)})"
     },
 {
       "name": "13_GF_Hat AirGate",

@@ -96,7 +96,7 @@
             "default": false,
 	    "group": "Logic Options and Tricks"
     	},
-        "_Camo_Jumps":{
+        "Camo_Jumps":{
             "display_name": "Camo Jumps",
             "description": "Adds logic for using Camo's vine attack to climb over certain barriers. Assumes a max speed Camo.",
             "type": "Toggle",
